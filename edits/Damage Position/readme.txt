@@ -1,0 +1,1 @@
+To install: Rename the file to HudDamageAccount then copy it to "dmhud/resource/ui" (Override the old one)

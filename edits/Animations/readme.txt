@@ -1,0 +1,1 @@
+To install: Rename the file to HudAnimations_tf then copy it to "dmhud/scripts" (Override the old one)
