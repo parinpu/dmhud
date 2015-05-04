@@ -6,6 +6,7 @@
 		"fieldName"		"BlueBG"
 		"xpos"			"0"
 		"ypos"			"0"
+		"ypos_minmode"	"80"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"3"
@@ -37,6 +38,8 @@
 		"NegativeColor"			"dm_timerNegative"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"NovecentoMedium16"
+		
+		"ypos_minmode"	"80"
 		
 		"TimePanelValue"
 		{
@@ -73,6 +76,8 @@
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
+		
+		"ypos_minmode"	"80"
 	}
 	"RedTimer"
 	{
@@ -92,6 +97,8 @@
 		"NegativeColor"			"dm_timerNegative"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"NovecentoMedium16"
+		
+		"ypos_minmode"	"80"
 		
 		"TimePanelValue"
 		{

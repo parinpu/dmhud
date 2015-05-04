@@ -44,6 +44,8 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		
+		"font_minmode"		"NovecentoBold34"
+		
 	}		
 	"AmmoInClipShadow"
 	{
@@ -61,6 +63,8 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		
+		"font_minmode"		"NovecentoBold34"
+		
 	}						
 	"AmmoInReserve"
 	{
@@ -77,6 +81,9 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
+		
+		"font_minmode"		"NovecentoBold18"
+		"ypos_minmode"		"9"
 	}		
 	"AmmoInReserveShadow"
 	{
@@ -93,6 +100,9 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
+		
+		"font_minmode"		"NovecentoBold18"
+		"ypos_minmode"		"10"
 	}									
 	"AmmoNoClip"
 	{
@@ -110,6 +120,8 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
+		"font_minmode"		"NovecentoBold34"
+		
 	}	
 	"AmmoNoClipShadow"
 	{
@@ -126,6 +138,8 @@
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
+		
+		"font_minmode"		"NovecentoBold34"
 		
 	}								
 }

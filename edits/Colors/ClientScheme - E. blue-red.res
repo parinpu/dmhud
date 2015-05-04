@@ -137,6 +137,7 @@ Scheme
 		
 		"dm_mainmenu"				"24 24 24 255"
 		"dm_mainmenuOverlay"		"0 0 0 127"
+		"dm_mainmenuTop"			"14 14 14 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

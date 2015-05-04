@@ -11,6 +11,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"DamageMedium14"
 		"delta_item_font_big"	"DamageBold16"
+		"visible"			"1"
 	}
 	"DamageAccountValue"
 	{

@@ -32,6 +32,7 @@
 		"wide"			"50"
 		"tall"			"3"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panel_dark"
 		"scaleImage"		"1"
@@ -227,6 +228,7 @@
 		"wrap"			"0"
 		"font"			"NovecentoMedium18"
 		"fgcolor"		"dm_timerServertime"
+		"xpos_minmode"	"c-200"
 	}	
 	"ServerTimeLimitLabelBG"
 	{

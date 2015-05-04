@@ -14,7 +14,7 @@
 		"image"			"../hud/medic_charge_blue_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"teambg_3"		"../hud/medic_charge_blue_bg"		
 	}
 	
 	"ChargeLabel"
@@ -38,6 +38,8 @@
 		"brighttext"	"0"
 		"font"			"NovecentoBold44"
 		"fgcolor"		"dm_uber"
+		
+		"font_minmode"		"NovecentoBold34"
 	}
 	"ChargeLabelShadow"
 	{
@@ -60,6 +62,8 @@
 		"brighttext"	"0"
 		"font"			"NovecentoBold44"
 		"fgcolor"		"dm_shadows"
+		
+		"font_minmode"		"NovecentoBold34"
 	}
 
 	"IndividualChargesLabel"
@@ -104,6 +108,8 @@
 		"brighttext"	"0"
 		"fgcolor_override"		"dm_uberFG"
 		"bgcolor_override"		"dm_uberBG"
+		
+		"wide_minmode"		"70"
 	}		
 	"ChargeMeter1"
 	{	

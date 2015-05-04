@@ -260,6 +260,9 @@
 		"ypos"	"r180"
 		"wide"	"250"
 		"tall"	"120"
+		
+		"xpos_minmode"	"c-70"	
+		"ypos_minmode"	"r200"
 	}
 	
 	HudObjectiveStatus
@@ -316,6 +319,9 @@
 		"ypos"			"r180"
 		"wide"			"320"
 		"tall"			"120"
+		
+		"ypos_minmode"	"r200"
+		"xpos_minmode"	"c-120"
 	}
 	
 	HudDemomanCharge
@@ -483,6 +489,8 @@
 		"tall"	 	"30"
 		"priority"	"40"
 		"priority_lodef"	"5"
+		
+		"ypos_minmode"		"340"
 
 		if_vr
 		{
@@ -1050,7 +1058,7 @@
 		"separator_width"		"0"	// distance between the icons (including their backgrounds)
 		"separator_height"		"0"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"height_offset_minmode"			"50"
 	}
 
 	HudCapturePanel
@@ -1362,6 +1370,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
+		"ypos_minmode"			"80"
 		"wide"					"f0"
 		"tall"					"20"
 	}

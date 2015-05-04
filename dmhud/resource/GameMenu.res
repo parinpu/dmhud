@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label" "v1.0.3" 	
+		"label" "v1.0.4" 	
 		"command" "engine exec changes.cfg"
 		"tooltip" "Changelog"
 	} 
