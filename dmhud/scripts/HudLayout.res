@@ -723,7 +723,7 @@
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"AvenirLight12"
+		"TextFont"		"AvenirMedium12"
 		
 		//"TeamBlue"		"HUDBlueTeamSolid"
 		//"TeamRed"		"HUDRedTeamSolid"

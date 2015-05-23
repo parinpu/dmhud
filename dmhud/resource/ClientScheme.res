@@ -50,7 +50,7 @@ Scheme
 		"dm_lowhealthFX"			"255 100 0 255"		//Health when u r ded and ded
 		"dm_shadows"				"24 24 24 255"		//Shadows, no desc needed
 		"dm_damagePositive"			"0 255 255 255"		//Healing numbers
-		"dm_damageNegative"			"255 255 38 255"	//Damage.. duh
+		"dm_damageNegative"			"255 255 255 255"	//Damage.. duh
 		"dm_meterFG"				"219 23 116 255"	//General colors
 		"dm_meterBG"				"244 244 244 255"	//General colors
 		"dm_timer"					"244 244 244 255"	//tick tack
@@ -4035,13 +4035,13 @@ Scheme
                 "dropshadow"	"0"
 			}
 		}
-//------AvenirLTStd-Black------------------------------------------
+//------AvenirLTStd-Medium------------------------------------------
 
 		"AvenirMedium8"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"8"
 				"antialias"		"1"
 			}
@@ -4050,7 +4050,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"10"
 				"antialias"		"1"
 			}
@@ -4059,7 +4059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"12"
 				"antialias"		"1"
 			}
@@ -4068,7 +4068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"14"
 				"antialias"		"1"
 			}
@@ -4077,7 +4077,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"16"
 				"antialias"		"1"
 			}
@@ -4086,7 +4086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"18"
 				"antialias"		"1"
 			}
@@ -4095,7 +4095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"20"
 				"antialias"		"1"
 			}
@@ -4104,7 +4104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"22"
 				"antialias"		"1"
 			}
@@ -4113,7 +4113,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"24"
 				"antialias"		"1"
 			}
@@ -4122,7 +4122,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"26"
 				"antialias"		"1"
 			}
@@ -4131,7 +4131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"28"
 				"antialias"		"1"
 			}
@@ -4140,7 +4140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"30"
 				"antialias"		"1"
 			}
@@ -4149,7 +4149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"32"
 				"antialias"		"1"
 			}
@@ -4158,7 +4158,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"34"
 				"antialias"		"1"
 			}
@@ -4167,7 +4167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"36"
 				"antialias"		"1"
 			}
@@ -4176,7 +4176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"38"
 				"antialias"		"1"
 			}
@@ -4185,7 +4185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"40"
 				"antialias"		"1"
 			}
@@ -4194,7 +4194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"42"
 				"antialias"		"1"
 			}
@@ -4203,7 +4203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"44"
 				"antialias"		"1"
 			}
@@ -4212,7 +4212,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"46"
 				"antialias"		"1"
 			}
@@ -4221,7 +4221,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"48"
 				"antialias"		"1"
 			}
@@ -4229,191 +4229,191 @@ Scheme
 		
 //------AvenirLTStd-Black------------------------------------------
 
-		"AvenirLight8"
+		"AvenirBlack8"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"8"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight10"
+		"AvenirBlack10"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"10"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight12"
+		"AvenirBlack12"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"12"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight14"
+		"AvenirBlack14"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"14"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight16"
+		"AvenirBlack16"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"16"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight18"
+		"AvenirBlack18"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"18"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight20"
+		"AvenirBlack20"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"20"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight22"
+		"AvenirBlack22"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"22"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight24"
+		"AvenirBlack24"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"24"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight26"
+		"AvenirBlack26"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"26"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight28"
+		"AvenirBlack28"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"28"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight30"
+		"AvenirBlack30"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"30"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight32"
+		"AvenirBlack32"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"32"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight34"
+		"AvenirBlack34"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"34"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight36"
+		"AvenirBlack36"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"36"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight38"
+		"AvenirBlack38"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"38"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight40"
+		"AvenirBlack40"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"40"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight42"
+		"AvenirBlack42"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"42"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight44"
+		"AvenirBlack44"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"44"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight46"
+		"AvenirBlack46"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"46"
 				"antialias"		"1"
 			}
 		}
-		"AvenirLight48"
+		"AvenirBlack48"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"48"
 				"antialias"		"1"
 			}
@@ -6397,7 +6397,7 @@ Scheme
 		}
 		"11"
 		{
-			"font"		"resource/fonts/AvenirLTStd-Black.ttf"
+			"font"		"resource/fonts/AvenirLTStd-Black.otf"
 			"name"		"AvenirLTStd-Black"
 		}
 		"12"
