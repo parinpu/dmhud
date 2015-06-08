@@ -81,8 +81,24 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BoldNumbers12"
-		"fgcolor"		"dm_specHealth"	
+		"font"			"stHealthFX"
+		"fgcolor"		"0 0 0 0"	
+	}
+	"TournamentHealthStatic"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TournamentHealth"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"6"
+		"wide"			"25"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"stHealth"
+		"fgcolor"		"24 24 24 255"	
 	}
 	"TournamentBG"
 	{
@@ -97,33 +113,5 @@
 		"enabled"			"1"
 		"Alpha"				"255"
 		"fillcolor"			"dm_shadows"
-	}
-	"TournamentBonusBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TournamentBonusBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"25"
-		"tall"				"14"
-		"visible"			"1"
-		"enabled"			"1"
-		"Alpha"				"0"
-		"fillcolor"			"dm_specBonusBG"
-	}
-	"TournamentLowBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TournamentLowBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"25"
-		"tall"				"14"
-		"visible"			"1"
-		"enabled"			"1"
-		"Alpha"				"0"
-		"fillcolor"			"dm_specLowBG"
 	}
 }

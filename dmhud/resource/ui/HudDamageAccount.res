@@ -9,9 +9,9 @@
 		"PositiveColor"			"dm_damagePositive"
 		"NegativeColor"			"dm_damageNegative"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"DamageMedium14"
-		"delta_item_font_big"	"DamageBold16"
-		"visible"			"1"
+		"delta_item_font"		"NovecentoMedium14"
+		"delta_item_font_big"	"NovecentoBold16"
+		"visible"				"1"
 	}
 	"DamageAccountValue"
 	{
@@ -27,14 +27,14 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"dm_damageNegative"
-		"font"					"NovecentoMedium16"
+		"font"					"damageInHud"
 	}
 	"DamageAccountValueShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DamageAccountValueShadow"
-		"xpos"					"c-174"
-		"ypos"					"r169"
+		"xpos"					"c-175"
+		"ypos"					"r170"
 		"zpos"					"1"
 		"wide"					"50"
 		"tall"					"20"
@@ -42,7 +42,7 @@
 		"enabled"				"1"
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
-		"fgcolor"				"dm_shadows"
-		"font"					"NovecentoMedium16"
+		"fgcolor"				"255 0 0 200"
+		"font"					"damageInHudGlow"
 	}
 }

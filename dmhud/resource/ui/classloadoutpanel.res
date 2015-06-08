@@ -92,8 +92,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"NovecentoBold20"
-		"labelText"		">"
+		"font"			"RobotoBold20"
+		"labelText"		"@"
 		"textAlignment"	"east"
 		"xpos"			"c-300"
 		"ypos"			"20"
@@ -110,7 +110,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"NovecentoLight20"
+		"font"			"Roboto20"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
@@ -129,8 +129,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TauntCaratLabel"
-		"font"			"NovecentoBold20"
-		"labelText"		">"
+		"font"			"RobotoBold20"
+		"labelText"		"@"
 		"textAlignment"	"east"
 		"xpos"			"c-180"
 		"ypos"			"20"
@@ -147,7 +147,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
-		"font"			"NovecentoLight20"
+		"font"			"Roboto20"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"

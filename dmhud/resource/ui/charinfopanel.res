@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"dm_mainmenu"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"NovecentoWide18"
+		"title_font"	"Roboto18"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -119,7 +119,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"NovecentoLight20"
+			"font"				"Roboto16"
 			"selectedcolor"		"244 244 244 255"
 			"unselectedcolor"	"80 80 80 255"	
 			"defaultBgColor_override"	"dm_mainmenu"
@@ -144,7 +144,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&Q Back"
-		"font"			"NovecentoLight20"
+		"font"			"Roboto20"
 		"textinsety"	"-1"
 		"textAlignment"	"center"
 		"dulltext"		"0"

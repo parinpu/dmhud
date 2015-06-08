@@ -36,7 +36,7 @@ Scheme
 		"sauce_green"				"0 217 0 0"
 		"sauce_hc"					"255 255 0 255"
 		"sauce_none"				"0 0 0 0"
-		"flavor"					"219 23 116 255"
+		"flavor"					"0 200 255 255"
 		
 		//General stuff				Colors				Dank desc.
 		"dm_statbars"				"38 147 200 255" 	//Stats bars
@@ -59,38 +59,28 @@ Scheme
 		"dm_timerShittynfo"			"244 244 244 255"	//OVERTIME OVERTIME OVERTIME and setup nfo
 		"dm_timerServertime"		"244 244 244 255"	//Server time left (the clock in the corner)
 		"btn_default"				"244 244 244 255"	//Button default state
-		"btn_armed"					"219 23 116 255"	//Mouse over button (same as sauce)
-		"btn_pressed"				"219 23 116 255"	//Pressed.
+		"btn_armed"					"0 200 255 255"	//Mouse over button (same as sauce)
+		"btn_pressed"				"0 200 255 255"	//Pressed.
+		"dm_text"					"24 24 24 255"
 		
 		//TargetID colors
-		"dm_targetHealth"			"24 24 24 255"	//Health
-		"dm_targetBonus"			"219 23 116 255"	//Buff
-		"dm_targetLow"				"255 200 0 255"		//Ded
-		"dm_targetLowFX"			"255 100 0 255"		//Ded
 		"dm_targetBackground"		"24 24 24 190"		//Player name Background
 		"dm_targetExtra"			"244 244 244 255"	//Uber %, KS and ammo
 		"dm_targetName"				"244 244 244 255"	//Player name FG
 		"dm_targetHPbg"				"244 244 244 255"	//HP bg
 		
 		//Medic colors
-		"dm_uberFG"					"219 23 116 255"	//Charge meter top color
+		"dm_uberFG"					"0 200 255 255"	//Charge meter top color
 		"dm_uberBG"					"244 244 244 255"	//Charge meter back color
 		"dm_uberFX"					"255 255 255 255"		//Charge meter "flashing" effect
 		"dm_uber"					"244 244 244 255"	//Charge label normal color
-		"dm_uberReady"				"255 0 128 255 255"	//Charge label ready color
+		"dm_uberReady"				"0 200 255 255"	//Charge label ready color
 		
 		//Demoman colors
 		"dm_demoStickies"			"244 244 244 255"	//Sticky bombs
 		"dm_demoMeterFG"			"244 244 244 255"	//Name
 		"dm_demoMeterBG"			"24 24 24 150"		//Sticky meter
 		
-		//Tournament info
-		"dm_specHealth"				"24 24 24 255"	//Health
-		"dm_specBonus"				"219 23 116 255"	//Buffed
-		"dm_specLow"				"255 200 0 255"	//Low HP
-		"dm_specLowFX"				"255 100 0 255"	//Low HP
-		"dm_specBonusBG"			"38 147 200 0"	//Colored buffed BG
-		"dm_specLowBG"				"200 0 0 0"		//Colored ded BG
 
 		//Scoreboard
 		"dm_scoresBackground"		"24 24 24 200"
@@ -99,7 +89,7 @@ Scheme
 		"dm_scoresBLU"				"244 244 244 255"
 		"dm_scoresRED"				"244 244 244 255"
 		"dm_scoresPlayercount"		"244 244 244 255"
-		"dm_scoresStats"			"244 244 244 255"
+		"dm_scoresStats"			"24 24 24 255"
 		"dm_scoresSpecs"			"244 244 244 255"
 		"dm_scoresSpecsShadow"		"24 24 24 255"
 		"dm_scoresSpecsOutline"		"244 244 244 0"
@@ -114,26 +104,6 @@ Scheme
 		"dm_scoresXtra"				"244 244 244 255"
 				
 		"dm_chargeammount"			"0 255 150 255"
-		
-		//Main menu stufferino
-		"dm_DMlabel"				"38 147 255 255"
-		"dm_HUDlabel"				"244 244 244 255"
-		
-		"dm_barServers"				"38 147 200 255"
-		"dm_barOptions"				"200 50 50 255"
-		"dm_barElse"				"48 210 139 255"
-		"dm_BarQuit"				"255 200 0 255"
-		"dm_barLogo"				"244 244 244 255"
-		"dm_barThemed"				"244 244 244 255"
-		
-		"dm_buttonDefault"			"244 244 244 255"
-		"dm_buttonToolsWhite"		"244 244 244 255"
-		"dm_buttonToolsBlue"		"38 147 200 255"
-		"dm_buttonServers"			"38 147 200 255"
-		"dm_buttonOptions"			"255 50 50 255"
-		"dm_buttonElse"				"48 210 139 255"
-		"dm_buttonQuit"				"255 200 0 255"
-		
 		
 		"dm_mainmenu"				"24 24 24 255"
 		"dm_mainmenuOverlay"		"0 0 0 127"
@@ -556,7 +526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"Roboto"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -565,7 +535,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"Roboto"
 				"tall"		"14"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -575,7 +545,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"Roboto"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -584,7 +554,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"Roboto"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -593,7 +563,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"Roboto"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -602,14 +572,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"Roboto"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"Roboto"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -864,7 +834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -874,7 +844,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -884,7 +854,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -893,7 +863,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -902,7 +872,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -914,7 +884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -927,7 +897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -940,7 +910,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -952,7 +922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -963,7 +933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -974,7 +944,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -986,7 +956,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -997,7 +967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1008,7 +978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1019,7 +989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1032,7 +1002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1045,7 +1015,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1057,7 +1027,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1068,7 +1038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1079,7 +1049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1091,7 +1061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1102,7 +1072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1114,7 +1084,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1125,7 +1095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1136,7 +1106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1147,7 +1117,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1158,7 +1128,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1169,7 +1139,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1180,7 +1150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1191,7 +1161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1204,7 +1174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1247,7 +1217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1260,7 +1230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1320,7 +1290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1330,7 +1300,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1341,7 +1311,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1350,7 +1320,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1359,7 +1329,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1524,7 +1494,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1534,7 +1504,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1545,7 +1515,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1653,7 +1623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1706,7 +1676,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1716,7 +1686,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1726,7 +1696,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1735,7 +1705,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1744,7 +1714,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1937,7 +1907,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1950,7 +1920,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1962,7 +1932,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2015,7 +1985,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2025,7 +1995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2063,7 +2033,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2072,7 +2042,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2111,7 +2081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2122,7 +2092,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2133,7 +2103,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2208,7 +2178,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2219,7 +2189,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2230,7 +2200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2241,7 +2211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2252,7 +2222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2263,7 +2233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2275,7 +2245,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2286,7 +2256,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2361,7 +2331,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2425,7 +2395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2436,7 +2406,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2447,7 +2417,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Medium"
+				"name"		"Roboto Medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2460,7 +2430,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2471,7 +2441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2488,7 +2458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2499,7 +2469,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-DemiBold"
+				"name"		"Roboto Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2511,7 +2481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoWide-Book"
+				"name"		"Roboto"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3083,1364 +3053,1969 @@ Scheme
 		}
 		
 		
-//-------Custom fonts-----------------------------------------------
-
-//------Novecentowide-Book------------------------------------------
-
-		"NovecentoLight8"
+//		Custom fonts,
+//		Pre-defined names
+//		[1	HP & ammo]
+//		[1.1	HP]
+		"HealthValue"				//Ammo in magazine
 		{
 			"1"
 			{
-				"name"			"Novecentowide-Book"
-				"tall"			"8"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight10"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"10"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight12"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"12"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight14"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"14"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight16"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight18"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight20"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"20"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight22"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"22"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight24"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"24"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight26"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"26"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight28"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"28"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight30"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"30"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight32"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"32"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight34"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"34"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight36"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"36"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight38"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"38"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight40"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"40"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight42"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"42"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight44"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"44"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"NovecentoLight46"
+		"HealthValue.min"				//Ammo in magazine
 		{
 			"1"
 			{
-				"name"			"Novecentowide-Book"
-				"tall"			"46"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoLight48"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Book"
-				"tall"			"48"
-				"antialias"		"1"
-			}
-		}
-		
-		
-//------NovecentoWide-Medium-----------------------------------
-
-		"NovecentoMedium8"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"8"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium10"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"10"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium12"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"12"
-				"antialias"		"1"
-				"dropshadow"	"0"
-			}
-		}
-		"NovecentoMedium14"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"14"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium16"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium18"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium20"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"20"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium22"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"22"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium24"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"24"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium26"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"26"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium28"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"28"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium30"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"30"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium32"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"32"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium34"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"34"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"NovecentoMedium36"
+		"HealthValueShadow"				//Ammo in magazine
 		{
 			"1"
 			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"36"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium38"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"38"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium40"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"40"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium42"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"42"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium44"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"44"
 				"antialias"		"1"
+				"blur"			"2"
 			}
 		}
-		"NovecentoMedium46"
+		"HealthValueShadow.min"				//Ammo in magazine
 		{
 			"1"
 			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"46"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoMedium48"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-Medium"
-				"tall"			"48"
-				"antialias"		"1"
-			}
-		}
-
-//------NovecentoWide-DemiBold------------------------------------------
-
-		"NovecentoBold8"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"8"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold10"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"10"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold12"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"12"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold14"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"14"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold16"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold18"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold20"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"20"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold22"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"22"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold24"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"24"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold26"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"26"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold28"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"28"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold30"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"30"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold32"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"32"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold34"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"34"
 				"antialias"		"1"
+				"blur"			"2"
 			}
 		}
-		"NovecentoBold36"
+//		[1.2	Ammo]
+		"AmmoMag"				//Ammo in magazine
 		{
 			"1"
 			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"36"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold38"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"38"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold40"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"40"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold42"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"42"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold44"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"44"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"NovecentoBold46"
+		"AmmoMag.min"			//same but minmode
 		{
 			"1"
 			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"46"
-				"antialias"		"1"
-			}
-		}
-		"NovecentoBold48"
-		{
-			"1"
-			{
-				"name"			"Novecentowide-DemiBold"
-				"tall"			"48"
-				"antialias"		"1"
-			}
-		}
-
-//-----------BoldNumbers-------------------------------------------------------
-
-		"BoldNumbers8"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers10"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers12"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers14"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers16"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers18"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers20"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers22"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers24"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers26"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers34"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"34"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers36"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"36"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers44"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"44"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"BoldNumbers48"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"48"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}		
-//-----------MediumNumbers-------------------------------------------------------
-
-		"MediumNumbers8"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"MediumNumbers10"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"MediumNumbers12"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"MediumNumbers14"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"MediumNumbers16"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"MediumNumbers18"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-//-----------Damage-------------------------------------------------------
-
-		"DamageBold8"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"8"
-				"outline"	"1"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageBold10"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"10"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageBold12"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"12"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageBold14"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"14"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageBold16"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"16"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageBold18"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersBold"
-				"tall"		"18"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}		
-//-----------Damage-------------------------------------------------------
-
-		"DamageMedium8"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"8"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageMedium10"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"10"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageMedium12"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"12"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageMedium14"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"14"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageMedium16"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"16"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-		"DamageMedium18"              
-		{
-			"1"
-			{
-				"name"			"NovecentoNumbersMedium"
-				"tall"		"18"
-				"additive"	"0"
-				"outline"	"1"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
-//------AvenirLTStd-Medium------------------------------------------
-
-		"AvenirMedium8"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"8"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium10"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"10"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium12"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"12"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium14"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"14"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium16"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium18"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium20"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"20"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium22"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"22"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium24"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"24"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium26"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"26"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium28"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"28"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium30"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"30"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium32"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"32"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium34"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"34"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"AvenirMedium36"
+		"AmmoMagShadow"			//Blurry shadow, set blur to 0 for non blurry shadows
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"36"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium38"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"38"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium40"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"40"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium42"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"42"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium44"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"44"
 				"antialias"		"1"
+				"blur"			"2"
 			}
 		}
-		"AvenirMedium46"
+		"AmmoMagShadow.min"		//Blurry shadow, set blur to 0 for non blurry shadows
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"46"
-				"antialias"		"1"
-			}
-		}
-		"AvenirMedium48"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"48"
-				"antialias"		"1"
-			}
-		}
-		
-//------AvenirLTStd-Black------------------------------------------
-
-		"AvenirBlack8"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"8"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack10"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"10"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack12"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"12"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack14"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"14"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack16"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack18"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack20"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"20"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack22"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"22"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack24"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"24"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack26"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"26"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack28"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"28"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack30"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"30"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack32"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"32"
-				"antialias"		"1"
-			}
-		}
-		"AvenirBlack34"
-		{
-			"1"
-			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"34"
 				"antialias"		"1"
+				"blur"			"2"
 			}
 		}
-		"AvenirBlack36"
+		"AmmoReserve"			//Ammo in reserve
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"36"
+				"name"			"NovecentoWide-Medium"
+				"tall"			"22"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"AvenirBlack38"
+		"AmmoReserve.min"		//Ammo in reserve
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"38"
+				"name"			"NovecentoWide-Medium"
+				"tall"			"18"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"AvenirBlack40"
+		"AmmoReserveShadow"		//Ammo in reserve shadow
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"40"
+				"name"			"NovecentoWide-Medium"
+				"tall"			"22"
 				"antialias"		"1"
+				"blur"			"2"
 			}
 		}
-		"AvenirBlack42"
+		"AmmoReserveShadow.min"	//Ammo in reserve shadow
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"42"
+				"name"			"NovecentoWide-Medium"
+				"tall"			"18"
 				"antialias"		"1"
+				"blur"			"2"
 			}
 		}
-		"AvenirBlack44"
+		"AmmoNoClip"				//Ammo
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"44"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"AvenirBlack46"
+		"AmmoNoClip.min"			//same but minmode
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"46"
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"34"
 				"antialias"		"1"
+				"blur"			"0"
 			}
 		}
-		"AvenirBlack48"
+		"AmmoNoClipShadow"			//Blurry shadow, set blur to 0 for non blurry shadows
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"48"
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"44"
 				"antialias"		"1"
+				"blur"			"2"
 			}
 		}
-//------Other stuff-------------------------------------------------------
-		
-		"SpectatorsOutline"
+		"AmmoNoClipShadow.min"		//Blurry shadow, set blur to 0 for non blurry shadows
 		{
 			"1"
 			{
-				"name"			"Novecentowide-Medium"
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"34"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+//		[2	Medic]
+		"medUber"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"44"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"medUberShadow"		//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"44"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+		"medUber.min"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"34"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"medUberShadow.min"		//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"34"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+//		[4	TargetID]
+		"targetName"			//
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
 				"tall"			"10"
 				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"targetInfo"			//
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"10"
+				"antialias"		"1"
+				"blur"			"0"
 				"outline"		"1"
 			}
 		}
-		"KillFeed"
+		"targetHealth"			//
 		{
 			"1"
 			{
-				"name"			"Novecentowide-Medium"
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"14"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"targetHealthFX"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"16"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+//		[5	Spectator tournament]
+		"stNameLabel"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"8"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"stRespawn"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"8"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"stRespawnGlow"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"8"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+		"stCharge"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"10"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"stHealth"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
 				"tall"			"12"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"stHealthFX"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"14"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+//		[6	Damage display]
+		"damageInHud"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"16"
+				"antialias"		"1"
+				"blur"			"0"
+			}
+		}
+		"damageInHudGlow"			//
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"16"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+
+
+//		Roboto Regular
+
+		"Roboto8"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"8"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto10"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto12"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"12"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto14"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"14"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto16"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"16"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto18"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"18"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto20"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"20"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto22"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"22"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto24"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"24"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto26"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"26"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto28"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"28"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto30"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"30"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto32"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"32"
+				"antialias" 	"1"
+			}
+		}
+		"Roboto34"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"34"
+				"antialias" 	"1"
+			}
+		}
+//		Roboto Regular blurred
+
+		"Roboto8.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"8"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto10.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"10"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto12.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"12"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto14.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"14"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto16.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"16"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto18.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"18"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto20.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"20"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto22.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"22"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto24.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"24"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto26.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"26"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto28.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"28"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto30.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"30"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto32.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"32"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"Roboto34.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto"
+				"tall"			"34"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+//		Roboto Medium
+
+		"RobotoMedium8"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"8"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium10"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium12"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"12"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium14"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"14"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium16"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"16"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium18"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"18"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium20"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"20"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium22"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"22"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium24"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"24"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium26"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"26"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium28"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"28"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium30"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"30"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium32"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"32"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoMedium34"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"34"
+				"antialias" 	"1"
+			}
+		}
+//		Roboto Medium blurred
+
+		"RobotoMedium8.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"8"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium10.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"10"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium12.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"12"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium14.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"14"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium16.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"16"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium18.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"18"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium20.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"20"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium22.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"22"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium24.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"24"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium26.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"26"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium28.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"28"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium30.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"30"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium32.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"32"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoMedium34.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Medium"
+				"tall"			"34"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+//		Roboto Bold
+
+		"RobotoBold8"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"8"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold10"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold12"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"12"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold14"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"14"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold16"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"16"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold18"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"18"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold20"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"20"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold22"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"22"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold24"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"24"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold26"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"26"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold28"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"28"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold30"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"30"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold32"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"32"
+				"antialias" 	"1"
+			}
+		}
+		"RobotoBold34"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"34"
+				"antialias" 	"1"
+			}
+		}
+//		Roboto Bold blurred
+
+		"RobotoBold8.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"8"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold10.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"10"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold12.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"12"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold14.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"14"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold16.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"16"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold18.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"18"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold20.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"20"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold22.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"22"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold24.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"24"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold26.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"26"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold28.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"28"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold30.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"30"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold32.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"32"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"RobotoBold34.blur"              
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"34"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+//		NovecentoWide Book
+
+		"NovecentoBook8"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"8"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook10"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}	
+		"NovecentoBook12"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"12"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook14"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"14"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook16"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"16"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook18"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"18"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook20"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"20"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook22"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"22"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook24"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"24"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook26"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"26"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook28"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"28"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook30"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"30"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook32"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"32"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBook34"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"34"
+				"antialias" 	"1"
+			}
+		}
+//		NovecentoWide Book blurred
+
+		"NovecentoBook8.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"8"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook10.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"10"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}	
+		"NovecentoBook12.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"12"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook14.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"14"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook16.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"16"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook18.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"18"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook20.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"20"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook22.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"22"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook24.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"24"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook26.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"26"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook28.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"28"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook30.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"30"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook32.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"32"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBook34.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Book"
+				"tall"			"34"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+//		NovecentoWide Medium
+
+		"NovecentoMedium8"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"8"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium10"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}	
+		"NovecentoMedium12"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"12"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium14"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"14"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium16"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"16"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium18"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"18"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium20"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"20"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium22"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"22"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium24"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"24"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium26"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"26"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium28"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"28"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium30"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"30"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium32"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"32"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium34"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"34"
+				"antialias" 	"1"
+			}
+		}
+//		NovecentoWide Medium blurred
+
+		"NovecentoMedium8.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"8"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium10.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"10"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}	
+		"NovecentoMedium12.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"12"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium14.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"14"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium16.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"16"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium18.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"18"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium20.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"20"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium22.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"22"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium24.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"24"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium26.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"26"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium28.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"28"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium30.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"30"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium32.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"32"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoMedium34.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"34"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+//		NovecentoWide Bold
+
+		"NovecentoBold8"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"8"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold10"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}	
+		"NovecentoBold12"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"12"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold14"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"14"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold16"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"16"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold18"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"18"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold20"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"20"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold22"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"22"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold24"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"24"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold26"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"26"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold28"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"28"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold30"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"30"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold32"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"32"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoBold32"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"34"
+				"antialias" 	"1"
+			}
+		}
+//		NovecentoWide Bold blurred
+
+		"NovecentoBold8.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"8"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold10.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"10"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}	
+		"NovecentoBold12.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"12"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold14.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"14"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold16.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"16"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold18.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"18"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold20.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"20"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold22.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"22"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold24.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"24"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold26.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"26"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold28.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"28"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold30.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"30"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold32.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"32"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+		"NovecentoBold32.blur"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"34"
+				"antialias" 	"1"
+				"blur"			"2"
+			}
+		}
+//		Extra stuff
+		
+		"MainMenuIcon"
+		{
+			"1"
+			{
+				"name"			"Entypo"
+				"tall"			"32"
 				"antialias"		"1"
 			}
 		}
-		
-
 		"Icons36"
 		{
 			"1"
@@ -5889,7 +6464,10 @@ Scheme
 				}
 			}
 		}
-		
+		ButtonTest
+		{
+			"inset" "0 0 0 0"
+		}
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
@@ -6397,43 +6975,33 @@ Scheme
 		}
 		"11"
 		{
-			"font"		"resource/fonts/AvenirLTStd-Black.otf"
-			"name"		"AvenirLTStd-Black"
-		}
-		"12"
-		{
-			"font"		"resource/fonts/AvenirLTStd-Medium.otf"
-			"name"		"AvenirLTStd-Medium"
-		}
-		"13"
-		{
 			"font" 		"resource/fonts/Novecentowide-Medium.otf"
 			"name" 		"Novecentowide-Medium"
 		}
-		"14"
+		"12"
 		{
 			"font"		"resource/fonts/Novecentowide-Book.otf"
 			"name" 		"Novecentowide-Book"
 		}	
-		"15"
+		"13"
 		{
 			"font"		"resource/fonts/Novecentowide-DemiBold.otf"
 			"name" 		"Novecentowide-DemiBold"
 		}	
+		"14"
+		{
+			"font"		"resource/fonts/Roboto-Regular.ttf"
+			"name"		"Roboto"
+		}
+		"15"
+		{
+			"font"		"resource/fonts/Roboto-Medium.ttf"
+			"name"		"Roboto Medium"
+		}
 		"16"
 		{
-			"font" 		"resource/fonts/NovecentoNumbersBold.otf"
-			"name" 		"NovecentoNumbersBold"
-		}	
-		"17"
-		{
-			"font" 		"resource/fonts/NovecentoNumbersMedium.otf"
-			"name" 		"NovecentoNumbersMedium"
+			"font"		"resource/fonts/Roboto-Bold.ttf"
+			"name"		"Roboto Bold"
 		}
-		"18"
-		{
-			"font" 		"resource/fonts/NovecentoNumbersBook.otf"
-			"name" 		"NovecentoNumbersBook"
-		}	
 	}
 }

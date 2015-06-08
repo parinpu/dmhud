@@ -272,24 +272,11 @@
 			"visible"		"0"
 		}	
 	}
-	"TournamentBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TournamentBackground"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-2"
-		"wide"				"170"
-		"tall"				"25"
-		"visible"			"0"
-		"enabled"			"1"
-		"fillcolor"			"dm_scoresBackground"
-		}
 	"TournamentLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentLabel"
-		"font"			"FuturaMedium10"
+		"font"			"NovecentoMedium10"
 		"fgcolor"		"bc_white01"
 		"xpos"			"0"
 		"ypos"			"3"
@@ -340,7 +327,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"NovecentoMedium10"
+		"font"			"RobotoMedium14"
 		"fgcolor"		"bc_white01"
 		"xpos"			"2"
 		"ypos"			"4"
@@ -364,7 +351,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"NovecentoMedium10"
+		"font"			"Roboto10"
 		"fgcolor"		"bc_white01"
 		"xpos"			"47"
 		"ypos"			"4"
@@ -415,7 +402,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"NovecentoMedium10"
+		"font"			"RobotoMedium14"
 		"fgcolor"		"bc_white01"
 		"xpos"			"148"
 		"ypos"			"4"
@@ -439,7 +426,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"NovecentoMedium10"
+		"font"			"Roboto10"
 		"fgcolor"		"bc_white01"
 		"xpos"			"103"
 		"ypos"			"4"
@@ -463,7 +450,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"NovecentoMedium10"
+		"font"			"Roboto10"
 		"fgcolor"		"bc_white01"
 		"xpos"			"0"
 		"ypos"			"18"
@@ -483,7 +470,30 @@
 			"visible"		"0"
 		}
 	}
-
+	"TournamentConditionLabelglow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TournamentConditionLabelglow"
+		"font"			"Roboto10.blur"
+		"fgcolor"		"0 200 200 200"
+		"xpos"			"0"
+		"ypos"			"18"
+		"zpos"			"0"
+		"wide"			"200"
+		"tall"			"10"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%winconditions%"
+		"textAlignment"		"center"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"HudTournamentBGHelp"
 	{
 		"ControlName"		"ScalableImagePanel"

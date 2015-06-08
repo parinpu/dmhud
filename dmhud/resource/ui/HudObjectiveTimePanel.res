@@ -32,7 +32,6 @@
 		"wide"			"50"
 		"tall"			"3"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panel_dark"
 		"scaleImage"		"1"
@@ -92,7 +91,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NovecentoLight18"
+		"font"			"Roboto18"
 		"fgcolor"		"dm_timerShittynfo"
 	}			
 	"WaitingForPlayersBG"
@@ -228,7 +227,6 @@
 		"wrap"			"0"
 		"font"			"NovecentoMedium18"
 		"fgcolor"		"dm_timerServertime"
-		"xpos_minmode"	"c-200"
 	}	
 	"ServerTimeLimitLabelBG"
 	{

@@ -19,7 +19,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"NovecentoMedium16"
 		
-		"ypos_minmode"		"80"
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"

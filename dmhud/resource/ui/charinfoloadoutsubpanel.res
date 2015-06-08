@@ -292,7 +292,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"NovecentoLight12"
+		"font"			"Roboto12"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#BackpackTitle"
 		"textAlignment"	"north"
@@ -335,7 +335,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
-		"font"			"NovecentoLight12"
+		"font"			"Roboto12"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#CraftingExplanation_Title"
 		"textAlignment"	"north"
@@ -378,7 +378,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"NovecentoLight12"
+		"font"			"Roboto12"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#Armory"
 		"textAlignment"	"north"
@@ -421,7 +421,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
-		"font"			"NovecentoLight12"
+		"font"			"Roboto12"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#TradingExplanation_Title"
 		"textAlignment"	"north"
@@ -441,7 +441,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"NovecentoMedium14"
+		"font"			"RobotoMedium14"
 		"fgcolor_override"		"180 180 180 255"
 		"labelText"		"classname"
 		"textAlignment"	"north"
@@ -459,7 +459,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"NovecentoLight10"
+		"font"			"Roboto10"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -515,7 +515,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabel"
-		"font"			"NovecentoMedium16"
+		"font"			"RobotoMedium16"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
@@ -534,7 +534,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"NovecentoWide18"
+		"font"			"Roboto14"
 		"fgcolor"		"bc_white01"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"north"
@@ -547,7 +547,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "0 200 255 255"
 	}
 	
 	"class_loadout_panel"

@@ -2,23 +2,21 @@
 {
 	"Version"
 	{
-		"label" "v1.0.5" 	
+		"label" "Changelog" 	
 		"command" "engine exec changes.cfg"
-		"tooltip" "Changelog"
+		//"tooltip" "Changelog"
 	} 
 	"DemouiButton"
 	{
-		"label" "M" 	
+		"label" "q" 	
 		"command" "engine demoui"
-		"OnlyAtMenu" "1"
 		"tooltip" "DemoUI"
 	} 
 	"BugReport"
 	{
-		"label" "%" 	
+		"label" "Bug report" 	
 		"command" "engine bug"
-		"OnlyInGame" "1"
-		"tooltip" "Report a bug"
+		"OnlyInGame"	"1"
 	} 
 	"NewUserForums"
 	{
@@ -29,9 +27,10 @@
 	} 
 	"AchievementsButton"
 	{
-		"label" "B" 	
+		"label" "Achievements" 	
 		"command" "OpenAchievementsDialog"
-		"tooltip" "View Achievements"
+		//"tooltip" "View Achievements"
+		//"OnlyInGame" "1"
 	} 
 	"ReloadScheme"
 	{
@@ -56,28 +55,29 @@
 	} 
 	"ConsoleButton"
 	{
-		"label" "Console" 	
+		"label" "o" 	
 		"command" "engine con_enable 1;toggleconsole"
-		//"tooltip" "Open console"
+		"tooltip" "Open console"
 	} 
 	"ResumeGameButton"
 	{
-		"label"			"Resume"
+		"label"			"X"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
+		"tooltip"		"Resume Game"
 	}
 	"QuickplayButton"
 	{
 		"label" "QuickPlay" 
 		"command" "quickplay"
-		"OnlyAtMenu" "1"
+	//	"OnlyAtMenu" "1"
 	}
-	"QuickplayChangeButton"
-	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"OnlyInGame" "1"
-	}
+	//"QuickplayChangeButton"
+	//{
+	//	"label" "Quickplay" 
+	//	"command" "quickplay"
+	//	"OnlyInGame" "1"
+	//}
 	"PlayPVEButton"
 	{
 		"label" "Coop" 
@@ -98,12 +98,12 @@
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "Replay"
 		"command" "engine replay_reloadbrowser"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
+		"label" "Workshop"
 		"command" "engine OpenSteamWorkshopDialog"
 	}
 	"VRModeButton"
@@ -125,16 +125,16 @@
 		"label" "Z"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
-		"tooltip" "Create Server"
+		
 	}
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Store"
 		"command" "engine open_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Items"
 		"command" "engine open_charinfo"
 	}
 
@@ -142,23 +142,77 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"W"
+		"label"			"Call vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"tooltip" "Call vote"
+		//"tooltip" "Call vote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"à"
+		"label"			"O"
 		"command"		"OpenPlayerListDialog"
+		"OnlyInGame"	"1"
+		"tooltip" "Mute players"
+	}
+	"FixInvis"
+	{
+		"label"			"Invis players fix"
+		"command"		"engine exec invis.cfg"
 		"OnlyInGame"	"1"
 		"tooltip" "Mute players"
 	}
 	"RequestCoachButton"
 	{
-		"label"			"b"
+		"label"			"Request a coach"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"tooltip" "Request coach"
+		//"tooltip" "Request coach"
 	}
+	"TF2SettingsButton"
+	{
+		"label"			"@"
+		"command"		"opentf2options"
+		"tooltip" 		"Adv. options"
+	}
+	"SettingsButton"
+	{
+		"label"			"Options"
+		"command"		"OpenOptionsDialog"
+	}
+	"DisconnectButton"
+	{
+		"label"			"Disconnect"
+		"command"		"engine disconnect"
+		"OnlyInGame"	"1"
+	}
+	"QuitButton"
+	{
+		"label"			"Quit"
+		"command"		"engine replay_confirmquit"
+		"OnlyAtMenu"	"1"
+	}
+	"6v6Score"
+	{
+		"label"			"6v6 scoreboard"
+		"command"		"engine cl_hud_minmode 0"
+		"OnlyInGame"	"1"
+	}
+	"9v9Score"
+	{
+		"label"			"Large scoreboard"
+		"command"		"engine cl_hud_minmode 1"
+		"OnlyInGame"	"1"
+	}
+	"IngameBG"
+	{
+		"label" " " 	
+		"command" "engine echo don't click me"
+		"OnlyInGame" "1"
+	} 
+	"MenuShit"
+	{
+		"label" " " 	
+		"command" "engine echo don't click me"
+		"OnlyAtMenu"	"1"
+	} 
 }

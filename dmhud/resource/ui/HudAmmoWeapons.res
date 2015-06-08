@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"NovecentoBold44"
+		"font"			"AmmoMag"
 		"fgcolor"		"dm_ammo"
 		"xpos"			"120"
 		"ypos"			"20"
@@ -44,14 +44,13 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		
-		"font_minmode"		"NovecentoBold34"
 		
 	}		
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"NovecentoBold44"
+		"font"			"AmmoMagShadow"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"122"
 		"ypos"			"22"
@@ -63,14 +62,13 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		
-		"font_minmode"		"NovecentoBold34"
 		
 	}						
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"NovecentoMedium22"
+		"font"			"AmmoReserve"
 		"fgcolor"		"dm_ammoreserve"
 		"xpos"			"175"
 		"ypos"			"15"
@@ -82,14 +80,12 @@
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 		
-		"font_minmode"		"NovecentoBold18"
-		"ypos_minmode"		"9"
 	}		
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"NovecentoMedium22"
+		"font"			"AmmoReserveShadow"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"176"
 		"ypos"			"16"
@@ -101,14 +97,12 @@
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 		
-		"font_minmode"		"NovecentoBold18"
-		"ypos_minmode"		"10"
 	}									
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"NovecentoBold44"
+		"font"			"AmmoNoClip"
 		"fgcolor"		"dm_ammo"
 		"xpos"			"110"
 		"ypos"			"20"
@@ -120,14 +114,14 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
-		"font_minmode"		"NovecentoBold34"
+
 		
 	}	
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"NovecentoBold44"
+		"font"			"AmmoNoClipShadow"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"112"
 		"ypos"			"22"
@@ -138,8 +132,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
-		
-		"font_minmode"		"NovecentoBold34"
+
 		
 	}								
 }

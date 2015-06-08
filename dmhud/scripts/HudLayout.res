@@ -3,6 +3,79 @@
 
 	// CROSSHAIRS
 	//Center your xhair using this.
+	
+	"TestXhair"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TestXhair"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"49"
+		"tall"				"49"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"vertical1"
+		{
+			"controlName"		"ImagePanel"
+			"fieldName"			"vertical1"
+			"tall"				"5"
+			"wide"				"2"
+			"visible"			"1"
+			"enabled"			"1"
+			"xpos"				"24"
+			"ypos"				"17"
+			"fillcolor"			"255 255 255 255"
+		}
+		"vertical2"
+		{
+			"controlName"		"ImagePanel"
+			"fieldName"			"vertical2"
+			"tall"				"5"
+			"wide"				"2"
+			"visible"			"1"
+			"enabled"			"1"
+			"xpos"				"24"
+			"ypos"				"28"
+			"fillcolor"			"255 255 255 255"
+		}
+		"horizontal1"
+		{
+			"controlName"		"ImagePanel"
+			"fieldName"			"horizontal1"
+			"tall"				"2"
+			"wide"				"5"
+			"visible"			"1"
+			"enabled"			"1"
+			"xpos"				"17"
+			"ypos"				"24"
+			"fillcolor"			"255 255 255 255"
+		}
+		"horizontal2"
+		{
+			"controlName"		"ImagePanel"
+			"fieldName"			"horizontal2"
+			"tall"				"2"
+			"wide"				"5"
+			"visible"			"1"
+			"enabled"			"1"
+			"xpos"				"28"
+			"ypos"				"24"
+			"fillcolor"			"255 255 255 255"
+		}
+		"dot"
+		{
+			"controlName"		"ImagePanel"
+			"fieldName"			"dot"
+			"tall"				"2"
+			"wide"				"2"
+			"visible"			"1"
+			"enabled"			"1"
+			"xpos"				"24"
+			"ypos"				"24"
+			"fillcolor"			"255 255 255 255"
+		}
+	}
 	"utility 1"
 	{
 		"ControlName"		"ImagePanel"
@@ -14,7 +87,7 @@
 		"tall"				"2"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"255 255 255 255"
+		"fillcolor"			"255 255 255 100"
 	}
 	"utility 2"
 	{
@@ -27,7 +100,7 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"255 255 255 255"
+		"fillcolor"			"255 255 255 100"
 	}
 	
 	Seekers
@@ -260,9 +333,6 @@
 		"ypos"	"r180"
 		"wide"	"250"
 		"tall"	"120"
-		
-		"xpos_minmode"	"c-70"	
-		"ypos_minmode"	"r200"
 	}
 	
 	HudObjectiveStatus
@@ -319,9 +389,6 @@
 		"ypos"			"r180"
 		"wide"			"320"
 		"tall"			"120"
-		
-		"ypos_minmode"	"r200"
-		"xpos_minmode"	"c-120"
 	}
 	
 	HudDemomanCharge
@@ -723,7 +790,7 @@
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"AvenirMedium12"
+		"TextFont"		"Roboto12"
 		
 		//"TeamBlue"		"HUDBlueTeamSolid"
 		//"TeamRed"		"HUDRedTeamSolid"
@@ -1058,7 +1125,6 @@
 		"separator_width"		"0"	// distance between the icons (including their backgrounds)
 		"separator_height"		"0"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset_minmode"			"50"
 	}
 
 	HudCapturePanel

@@ -36,10 +36,10 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NovecentoBold44"
+		"font"			"medUber"
 		"fgcolor"		"dm_uber"
 		
-		"font_minmode"		"NovecentoBold34"
+		"font_minmode"		"medUber.min"
 	}
 	"ChargeLabelShadow"
 	{
@@ -60,10 +60,10 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NovecentoBold44"
+		"font"			"medUberShadow"
 		"fgcolor"		"dm_shadows"
 		
-		"font_minmode"		"NovecentoBold34"
+		"font_minmode"		"medUberShadow.min"
 	}
 
 	"IndividualChargesLabel"

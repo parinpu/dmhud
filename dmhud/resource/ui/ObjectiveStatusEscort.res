@@ -13,7 +13,6 @@
 		"enabled"			"1"
 		"progress_xpos"		"79"
 		"progress_wide"		"270"
-		"ypos_minmode"		"r180"
 		
 		"if_multiple_trains"
 		{

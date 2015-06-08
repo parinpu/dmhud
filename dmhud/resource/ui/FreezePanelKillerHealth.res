@@ -81,7 +81,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"BoldNumbers18"
+		"font"			"NovecentoBold18"
 		"fgcolor"		"dm_Health"	
 	}
 }

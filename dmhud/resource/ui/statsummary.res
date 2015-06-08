@@ -126,7 +126,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"ActualLabel"
-				"font"			"NovecentoMedium12"
+				"font"			"RobotoMedium12"
 				"fgcolor_override"		"bc_white01"
 				"labelText"		"#TF_Contributed"
 				"textAlignment"		"center"
@@ -163,7 +163,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"font"			"NovecentoMedium20"
+			"font"			"RobotoMedium20"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%title%"
 			"textAlignment"	"east"
@@ -181,7 +181,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapAuthors"
-			"font"			"NovecentoLight12"
+			"font"			"Roboto12"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%authors%"
 			"textAlignment"	"east"
@@ -201,7 +201,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapLeaderboardTitle"
-			"font"			"NovecentoMedium12"
+			"font"			"RobotoMedium12"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%map_leaderboard_title%"
 			"textAlignment"	"north"
@@ -221,7 +221,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"NovecentoMedium20"
+		"font"			"RobotoMedium20"
 		"fgcolor_override"		"bc_white01"
 		"labelText"		"Loading"
 		"textAlignment"		"west"
@@ -239,7 +239,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"NovecentoLight10"
+		"font"			"RobotoLight10"
 		"fgcolor_override"		"bc_white01"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"west"
@@ -257,7 +257,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"NovecentoLight10"
+		"font"			"Roboto10"
 		"fgcolor_override"		"bc_white01"
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
@@ -314,7 +314,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"BarChartLabelA"
-				"font"			"NovecentoLight8"
+				"font"			"Roboto8"
 				"fgcolor_override"		"bc_white01"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
@@ -337,7 +337,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"BarChartLabelB"
-				"font"			"NovecentoLight8"
+				"font"			"Roboto8"
 				"fgcolor_override"		"bc_white01"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
@@ -359,7 +359,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"NovecentoLight8"
+				"font"			"Roboto8"
 				"fgcolor_override"		"bc_white01"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
@@ -493,7 +493,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AveragesLabel"
-			"font"			"NovecentoMedium16"
+			"font"			"RobotoMedium16"
 			"fgcolor_override"		"bc_white01"		
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
@@ -601,7 +601,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"NovecentoLight10"
+			"font"			"Roboto10"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -622,7 +622,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"NovecentoLight10"
+			"font"			"Roboto10"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -643,7 +643,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -748,7 +748,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"NovecentoLight10"
+			"font"			"Roboto10"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -769,7 +769,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"NovecentoLight10"
+			"font"			"Roboto10"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -790,7 +790,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -895,7 +895,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"NovecentoLight10"
+			"font"			"Roboto10"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -916,7 +916,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"NovecentoLight10"
+			"font"			"Roboto10"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -937,7 +937,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1042,7 +1042,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1063,7 +1063,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1084,7 +1084,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1189,7 +1189,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1210,7 +1210,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1231,7 +1231,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1336,7 +1336,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1357,7 +1357,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1378,7 +1378,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1483,7 +1483,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1504,7 +1504,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1525,7 +1525,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1630,7 +1630,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1651,7 +1651,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1672,7 +1672,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1777,7 +1777,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1798,7 +1798,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1819,7 +1819,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"NovecentoMedium10"
+			"font"			"RobotoMedium10"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1863,7 +1863,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"NovecentoMedium16"
+			"font"			"RobotoMedium16"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
@@ -1907,7 +1907,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RecordsLabel"
-			"font"			"NovecentoMedium20"
+			"font"			"RobotoMedium20"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"#StatSummary_Records"
 			"textAlignment"		"west"
@@ -1926,7 +1926,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord1label%"
@@ -1951,7 +1951,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord1value%"
@@ -1976,7 +1976,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord2label%"
@@ -2001,7 +2001,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord2value%"
@@ -2026,7 +2026,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord3label%"
@@ -2051,7 +2051,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord3value%"
@@ -2076,7 +2076,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord4label%"
@@ -2101,7 +2101,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord4value%"
@@ -2126,7 +2126,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord5label%"
@@ -2151,7 +2151,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord5value%"
@@ -2176,7 +2176,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord6label%"
@@ -2201,7 +2201,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord6value%"
@@ -2226,7 +2226,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord7label%"
@@ -2251,7 +2251,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord7value%"
@@ -2276,7 +2276,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord8label%"
@@ -2301,7 +2301,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord8value%"
@@ -2326,7 +2326,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord9label%"
@@ -2351,7 +2351,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord9value%"
@@ -2376,7 +2376,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord10label%"
@@ -2401,7 +2401,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord10value%"
@@ -2426,7 +2426,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord11label%"
@@ -2451,7 +2451,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord11value%"
@@ -2476,7 +2476,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord12label%"
@@ -2501,7 +2501,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord12value%"
@@ -2526,7 +2526,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord13label%"
@@ -2551,7 +2551,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord13value%"
@@ -2576,7 +2576,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord14label%"
@@ -2601,7 +2601,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord14value%"
@@ -2626,7 +2626,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord15label%"
@@ -2651,7 +2651,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"NovecentoLight8"
+			"font"			"Roboto8"
 			"font_hidef"	"Default"
 			"fgcolor_override"		"bc_white01"
 			"labelText"		"%classrecord15value%"
@@ -2691,7 +2691,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"NovecentoLight8"
+		"font"			"Roboto8"
 		"font_hidef"	"Default"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"

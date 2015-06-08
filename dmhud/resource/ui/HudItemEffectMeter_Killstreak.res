@@ -51,7 +51,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NovecentoLight14"
+		"font"					"Roboto14"
 		"fgcolor_override"				"bc_white01"
 	}
 
@@ -81,7 +81,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"16"
 		"tall"			"16"
@@ -107,7 +107,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NovecentoBold14"
+		"font"					"RobotoBold14"
 		"fgcolor_override"		"flavor"
 	}
 }

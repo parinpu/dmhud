@@ -62,7 +62,6 @@
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"r325"
 		"ypos"			"0"
-		"ypos_minmode"	"80"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"		"0"

@@ -16,8 +16,6 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		
-		"xpos_minmode"		"c-180"
-		"ypos_minmode"		"r200"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -73,10 +71,9 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"NovecentoBold44"
+		"font"			"HealthValue"
 		"fgcolor"		"dm_health"
 		
-		"font_minmode"		"NovecentoBold34"
 	}	
 	"PlayerStatusHealthShadow"
 	{
@@ -91,10 +88,9 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"NovecentoBold44"
+		"font"			"HealthValueShadow"
 		"fgcolor"		"dm_shadows"
 		
-		"font_minmode"		"NovecentoBold34"
 	}
 	"PlayerStatusBleedImage"
 	{

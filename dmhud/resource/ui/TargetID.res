@@ -86,13 +86,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"NovecentoMedium10"
+		"font"			"targetName"
 		"fgcolor"		"dm_targetName"
 		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"11"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -106,7 +106,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"NovecentoMedium10"
+		"font"			"targetInfo"
 		"fgcolor"		"dm_targetExtra"
 		"xpos"			"0"
 		"ypos"			"2"
@@ -232,7 +232,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"NovecentoLight12"
+			"font"			"Roboto12"
 			"fgcolor_override"		"bc_white01"
 			"xpos"			"0"
 			"ypos"			"10"
