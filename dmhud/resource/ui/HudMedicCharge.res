@@ -39,7 +39,6 @@
 		"font"			"medUber"
 		"fgcolor"		"dm_uber"
 		
-		"font_minmode"		"medUber.min"
 	}
 	"ChargeLabelShadow"
 	{
@@ -63,7 +62,6 @@
 		"font"			"medUberShadow"
 		"fgcolor"		"dm_shadows"
 		
-		"font_minmode"		"medUberShadow.min"
 	}
 
 	"IndividualChargesLabel"
@@ -108,8 +106,6 @@
 		"brighttext"	"0"
 		"fgcolor_override"		"dm_uberFG"
 		"bgcolor_override"		"dm_uberBG"
-		
-		"wide_minmode"		"70"
 	}		
 	"ChargeMeter1"
 	{	
