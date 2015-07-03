@@ -1,16 +1,8 @@
 "GameMenu" [$WIN32]
 {
-	"PlayCompetitiveButton"
-	{
-		"label" "#MMenu_PlayComp" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
-	}
 	"Version"
 	{
-		"label" "Changelog" 	
+		"label" "changelog xdd" 	
 		"command" "engine exec changes.cfg"
 		//"tooltip" "Changelog"
 	} 
@@ -22,7 +14,7 @@
 	} 
 	"BugReport"
 	{
-		"label" "Bug report" 	
+		"label" "depot bug" 	
 		"command" "engine bug"
 		"OnlyInGame"	"1"
 	} 
@@ -35,7 +27,7 @@
 	} 
 	"AchievementsButton"
 	{
-		"label" "Achievements" 	
+		"label" "achievmeenst" 	
 		"command" "OpenAchievementsDialog"
 		//"tooltip" "View Achievements"
 		//"OnlyInGame" "1"
@@ -76,7 +68,7 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "QuickPlay" 
+		"label" "quikplya " 
 		"command" "quickplay"
 	//	"OnlyAtMenu" "1"
 	}
@@ -88,30 +80,30 @@
 	//}
 	"PlayPVEButton"
 	{
-		"label" "Coop" 
+		"label" "mchine dstryoer" 
 		"command" "playpve"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Browse" 
+		"label" "plya" 
 		"command" "OpenServerBrowser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "Browse" 
+		"label" "kep plyn" 
 		"command" "OpenServerBrowser"
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "Replay"
+		"label" "deplya"
 		"command" "engine replay_reloadbrowser"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "Workshop"
+		"label" "werkshup"
 		"command" "engine OpenSteamWorkshopDialog"
 	}
 	"VRModeButton"
@@ -122,7 +114,7 @@
 	}
 	"TrainingButton"
 	{
-		"label" "Training"
+		"label" "gitgud"
 		"command" "offlinepractice"
 		"OnlyAtMenu" "1"
 	}
@@ -137,12 +129,12 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Store"
+		"label" "ayy money"
 		"command" "engine open_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Items"
+		"label" "selec itms"
 		"command" "engine open_charinfo"
 	}
 
@@ -150,7 +142,7 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"Call vote"
+		"label"			"democracy"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		//"tooltip" "Call vote"
@@ -164,14 +156,14 @@
 	}
 	"FixInvis"
 	{
-		"label"			"Invis players fix"
+		"label"			"I dont see shit"
 		"command"		"engine exec invis.cfg"
 		"OnlyInGame"	"1"
 		"tooltip" "Mute players"
 	}
 	"RequestCoachButton"
 	{
-		"label"			"Request a coach"
+		"label"			"hlp me"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		//"tooltip" "Request coach"
@@ -184,18 +176,18 @@
 	}
 	"SettingsButton"
 	{
-		"label"			"Options"
+		"label"			"optoins"
 		"command"		"OpenOptionsDialog"
 	}
 	"DisconnectButton"
 	{
-		"label"			"Disconnect"
+		"label"			"im mad xdd"
 		"command"		"engine disconnect"
 		"OnlyInGame"	"1"
 	}
 	"QuitButton"
 	{
-		"label"			"Quit"
+		"label"			"2gud@this"
 		"command"		"engine replay_confirmquit"
 		"OnlyAtMenu"	"1"
 	}

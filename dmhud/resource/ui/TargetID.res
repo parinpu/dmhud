@@ -74,25 +74,25 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"NameBackground"
 		"xpos"				"0"
-		"ypos"				"16"
+		"ypos"				"12"
 		"zpos"				"-10"
 		"wide"				"640"
-		"tall"				"18"
+		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"24 24 24 255"
+		"fillcolor"			"180 180 180 255"
 	}
 	"TargetNameLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"targetName"
-		"fgcolor"		"dm_targetName"
+		"font"			"Roboto12"
+		"fgcolor"		"24 24 24 255"
 		"xpos"			"0"
-		"ypos"			"16"
+		"ypos"			"14"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"14"
+		"tall"			"12"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -126,10 +126,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
-		"ypos"			"16"
+		"xpos"			"2"
+		"ypos"			"14"
 		"wide"			"30"
-		"tall"			"14"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
@@ -249,4 +249,21 @@
 			"brighttext"		"0"
 		}	
 	}
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"6"
+		"xpos_minmode"	"6"
+		"ypos"			"6"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"99"
+		"wide"			"11"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}	
 }

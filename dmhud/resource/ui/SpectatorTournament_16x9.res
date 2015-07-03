@@ -10,16 +10,15 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"0"
-		"team1_player_base_x"				"0"
-		"team1_player_base_y"				"20"
+		"team1_player_base_offset_x"		"282"
+		//"team1_player_base_x"				"0"
+		"team1_player_base_y"				"230"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"14"
-		"team2_player_base_offset_x"		"0"
-		"team2_player_base_x"				"0"
-		"team2_player_base_y"				"466"
+		"team1_player_delta_y"				"-14"
+		"team2_player_base_offset_x"		"282"
+		"team2_player_base_y"				"246"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"-14"
+		"team2_player_delta_y"				"14"
 		
 		
 		"playerpanels_kv"
@@ -527,17 +526,4 @@
 			"centerwrap"	"1"
 		}
 	}	
-	"spectator_extras"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"spectator_extras"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}		
 }
