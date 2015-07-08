@@ -45,7 +45,7 @@ Scheme
 		"dm_lowhealthFX"			"255 100 0 255"		//Health when u r ded and ded
 		"dm_shadows"				"24 24 24 255"		//Shadows, no desc needed
 		"dm_damagePositive"			"0 255 255 255"		//Healing numbers
-		"dm_damageNegative"			"255 255 255 255"	//Damage.. duh
+		"dm_damageNegative"			"255 255 0 255"		//Damage.. duh
 		"dm_meterFG"				"219 23 116 255"	//General colors
 		"dm_meterBG"				"244 244 244 255"	//General colors
 		"dm_timer"					"244 244 244 255"	//tick tack
@@ -5199,6 +5199,31 @@ Scheme
 				"blur"			"2"
 			}
 		}
+		
+	//Damage
+	
+	"DamageNumbers"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-Medium"
+				"tall"			"14"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
+	"DamageNumbersBig"              
+		{
+			"1"
+			{
+				"name"			"NovecentoWide-DemiBold"
+				"tall"			"20"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
+		
+		
 //		Extra stuff
 		
 		"MainMenuIcon"

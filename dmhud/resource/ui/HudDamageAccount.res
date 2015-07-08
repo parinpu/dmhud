@@ -7,10 +7,10 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"dm_damagePositive"
-		"NegativeColor"			"255 255 0 255"
+		"NegativeColor"			"dm_damageNegative"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"NovecentoMedium14"
-		"delta_item_font_big"	"NovecentoBold16"
+		"delta_item_font"		"DamageNumbers"
+		"delta_item_font_big"	"DamageNumbersBig"
 		"visible"				"1"
 	}
 	"DamageAccountValue"
