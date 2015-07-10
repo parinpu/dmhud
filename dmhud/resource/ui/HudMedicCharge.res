@@ -36,7 +36,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"medUber"
+		"font"			"NovecentoBold44"
 		"fgcolor"		"dm_uber"
 		
 	}
@@ -59,7 +59,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"medUberShadow"
+		"font"			"NovecentoBold44.blur"
 		"fgcolor"		"dm_shadows"
 		
 	}

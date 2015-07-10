@@ -26,8 +26,8 @@
 		"enabled"				"1"
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
-		"fgcolor"				"dm_damageNegative"
-		"font"					"damageInHud"
+		"fgcolor"				"dm_damageDisplay"
+		"font"					"NovecentoMedium14"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -43,6 +43,6 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"255 0 0 200"
-		"font"					"damageInHudGlow"
+		"font"					"NovecentoMedium14.blur"
 	}
 }

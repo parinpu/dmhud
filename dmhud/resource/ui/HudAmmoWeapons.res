@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"AmmoMag"
+		"font"			"NovecentoBold44"
 		"fgcolor"		"dm_ammo"
 		"xpos"			"120"
 		"ypos"			"20"
@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"AmmoMagShadow"
+		"font"			"NovecentoBold44.blur"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"122"
 		"ypos"			"22"
@@ -68,7 +68,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"AmmoReserve"
+		"font"			"NovecentoMedium20"
 		"fgcolor"		"dm_ammoreserve"
 		"xpos"			"175"
 		"ypos"			"15"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"AmmoReserveShadow"
+		"font"			"NovecentoMedium20.blur"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"176"
 		"ypos"			"16"
@@ -102,7 +102,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"AmmoNoClip"
+		"font"			"NovecentoBold44"
 		"fgcolor"		"dm_ammo"
 		"xpos"			"110"
 		"ypos"			"20"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"AmmoNoClipShadow"
+		"font"			"NovecentoBold44.blur"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"112"
 		"ypos"			"22"

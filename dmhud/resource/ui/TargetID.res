@@ -106,10 +106,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"targetInfo"
-		"fgcolor"		"dm_targetExtra"
+		"font"			"Roboto10"
+		"fgcolor"		"244 244 244 255"
 		"xpos"			"0"
-		"ypos"			"2"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"560"
 		"tall"			"12"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"12"
@@ -174,10 +174,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"16"
 		"zpos"			"-5"
 		"wide"			"32"
-		"tall"			"36"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"	
 		
@@ -232,13 +232,13 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"Roboto12"
-			"fgcolor_override"		"bc_white01"
+			"font"			"Roboto10"
+			"fgcolor_override"		"dm_text"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"16"
 			"zpos"			"1"
 			"wide"			"640"
-			"tall"			"20"
+			"tall"			"12"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -248,15 +248,38 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}	
+		"Engibg"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"Engibg"
+			"xpos"			"0"
+			"ypos"			"28"
+			"zpos"			"-1"
+			"wide"			"640"
+			"tall"	 		"2"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/panel_dark"
+			"scaleImage"		"1"
+			"teambg_1"		"replay/thumbnails/panel_dark"
+			"teambg_2"		"replay/thumbnails/panel_red"
+			"teambg_3"		"replay/thumbnails/panel_blue"
+			
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+				
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 	}
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
-		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"ypos"			"6"
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"

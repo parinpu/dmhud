@@ -1,12 +1,12 @@
 "GameMenu" [$WIN32]
 {
-	"PlayCompetitiveButton"
+	"comp"
 	{
-		"label" "#MMenu_PlayComp" 
+		"label" "do not look at me" 
 		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
+		//"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
+		//"OnlyWhenCompetitiveEnabled" "0"
 	}
 	"Version"
 	{

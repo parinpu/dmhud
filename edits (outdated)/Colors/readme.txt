@@ -1,1 +1,0 @@
-To install: Rename the file to Clientscheme then copy it to "dmhud/resource" (Override the old one)

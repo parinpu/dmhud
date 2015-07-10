@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HealthValue"
+		"font"			"NovecentoBold44"
 		"fgcolor"		"dm_health"
 		
 	}	
@@ -88,7 +88,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HealthValueShadow"
+		"font"			"NovecentoBold44.blur"
 		"fgcolor"		"dm_shadows"
 		
 	}
