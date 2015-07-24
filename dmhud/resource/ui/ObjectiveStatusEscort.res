@@ -189,7 +189,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"NovecentoLight8"			
+			"font"			"NovecentoBook8"			
 			"xpos"			"35"		
 			"ypos"			"110"		
 			"zpos"			"2"
@@ -394,7 +394,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"NovecentoMedium8"
+			"font"			"NovecentoBook12"
 			"fgcolor_override"		"bc_white01"
 			"xpos"			"25"
 			"ypos"			"110"

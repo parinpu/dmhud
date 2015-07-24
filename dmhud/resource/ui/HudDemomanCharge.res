@@ -17,8 +17,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"		"dm_demoMeterFG"
-		"bgcolor_override"		"dm_demoMeterBG"
+		"fgcolor_override"		"0 255 255 255"
+		"bgcolor_override"		"244 244 244 100"
 	}	
 
 }

@@ -109,7 +109,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"NovecentoBook14"
+		"font"			"NovecentoMedium14"
 		"fgcolor"		"24 24 24 255"
 		"labeltext"		"%health%"
 		"textAlignment"	"center"	

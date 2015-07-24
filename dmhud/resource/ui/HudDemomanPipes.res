@@ -107,7 +107,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"NovecentoMedium16"
-			"fgcolor"		"dm_demoStickies"
+			"fgcolor"		"244 244 244 255"
 		}
 		"NumPipesLabelDropshadow"
 		{

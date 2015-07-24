@@ -985,7 +985,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}	
 	
 	"numSoldier"
@@ -1006,7 +1006,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}		
 	
 	"numPyro"
@@ -1027,7 +1027,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}			
 	
 	"numDemoman" 
@@ -1048,7 +1048,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}				
 	
 	"numHeavy"
@@ -1069,7 +1069,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}					
 	
 	"numEngineer"
@@ -1090,7 +1090,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}						
 	
 	"numMedic"
@@ -1111,7 +1111,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}							
 	
 	"numSniper"
@@ -1132,7 +1132,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}						
 	
 	"numSpy"
@@ -1153,7 +1153,7 @@
 		"textAlignment"	"east"
 		"font"			"Roboto12"
 		"textinsety"	"0"
-		"fgcolor"		"flavor"
+		"fgcolor"		"120 120 120 255"
 	}								
 	
 	"MvMUpgradeImageScout"

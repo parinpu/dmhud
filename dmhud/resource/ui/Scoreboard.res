@@ -605,7 +605,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsShadow"
 		"font"			"Roboto10.blur"
-		"fgcolor"		"255 255 0 255"
+		"fgcolor"		"24 24 24 255"
 		"labelText"		"%spectators%"
 		"textAlignment"		"north-west"
 		"xpos"			"c-280"

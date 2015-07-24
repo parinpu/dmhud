@@ -192,6 +192,23 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
+		"border"		"NoBorder"
+		
+		"ItemBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ItemBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"f0"
+			"tall"			"300"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/panel_dark"
+			"Alpha"			"120"
+			"scaleImage"		"1"
+		}
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -225,7 +242,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"r270"
-		"ypos"			"93"		
+		"ypos"			"0"		
 		"wide"			"270"		
 		"tall"			"200"		
 		"visible"		"1"
@@ -282,7 +299,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"NovecentoMedium12"
+			"font"			"Roboto12"
 			"fgcolor_override"		"bc_white01"
 			"xpos"			"0"
 			"ypos"			"150"
@@ -321,7 +338,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"NovecentoMedium16"
+			"font"			"RobotoMedium16"
 			"fgcolor"		"bc_white01"
 			"xpos"			"60"
 			"ypos"			"160"
