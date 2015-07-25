@@ -361,7 +361,7 @@
 		"wide"			"100"
 		"tall"			"10"
 		"font"			"Roboto10"
-		"labelText"		"Version 2.1 hotfix"
+		"labelText"		"Version 2.1.2"
 		"fgcolor"		"dm_text"
 		"visible"		"1"
 		"enabled"		"1"

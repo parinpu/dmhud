@@ -210,15 +210,14 @@ event HudHealthBonusPulse
 	
 	//Labels
 	
-	Animate	PlayerStatusHealthShadow 	fgcolor		"0 200 255 255"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthShadow 	fgcolor		"0 150 255 255"		Accel 0.0 0.0
 	
-	Animate	TournamentHealth			fgcolor		"24 24 24 255"		Linear 0.0 0.0
-	Animate	TargetHealth				fgcolor		"0 200 255 255"		Linear 0.0 0.0
-	Animate	HealthBG					bgcolor		"0 180 200 200"		Linear 0.0 0.2
-	Animate	HealthBG					bgcolor		"0 200 255 220"		Linear 0.2 0.4
+	Animate	TournamentHealth			fgcolor		"244 244 244 255"		Linear 0.0 0.0
+	Animate	TargetHealthStatic			fgcolor		"244 244 244 255"		Linear 0.0 0.0
 	
-	Animate	MultipleBG					bgcolor		"0 200 255 120"		Linear 0.0 0.2
-	Animate	MultipleBG					bgcolor		"0 200 255 50"		Linear 0.2 0.4
+	Animate	HealthBG					bgcolor		"0 150 255 255"		Linear 0.0 0.0
+	
+	Animate	MultipleBG					bgcolor		"0 150 255 255"		Linear 0.0 0.0
 
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
@@ -238,10 +237,10 @@ event HudHealthBonusPulseStop
 	//Labels
 	Animate	PlayerStatusHealthShadow 	fgcolor		"dm_shadows"	Linear 0.0 0.0
 	Animate	TournamentHealth			fgcolor		"24 24 24 255"		Linear 0.0 0.0
-	Animate	TargetHealth				fgcolor		"dm_health"	Linear 0.0 0.0
+	Animate	TargetHealthStatic			fgcolor		"24 24 24 255"		Linear 0.0 0.0
 	
 	Animate	HealthBG					bgcolor		"220 220 220 255"		Linear 0.0 0.0
-	Animate	MultipleBG					bgcolor		"220 220 220 0"		Linear 0.2 0.4
+	Animate	MultipleBG					bgcolor		"220 220 220 0"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -257,15 +256,15 @@ event HudHealthDyingPulse
 	
 	//Animate		LowStatus 					Alpha		"255"				Linear 0.0 0.0
 	
-	Animate		TournamentHealth 			fgcolor		"24 24 24 255"		Linear 0.0 0.0
+	Animate		TournamentHealth 			fgcolor		"244 244 244 255"		Linear 0.0 0.0
 
 	Animate		TargetHealth 	fgcolor		"255 50 50 255"			Linear 0.0 0.0
 	
-	Animate	HealthBG					bgcolor		"255 50 50 200"		Linear 0.0 0.075
-	Animate	HealthBG					bgcolor		"200 0 0 200"		Linear 0.0125 0.075
+	Animate	TargetHealthStatic			fgcolor		"244 244 244 255"		Linear 0.0 0.0
 	
-	Animate	MultipleBG					bgcolor		"255 0 0 120"		Linear 0.0 0.075
-	Animate	MultipleBG					bgcolor		"255 0 0 50"		Linear 0.0125 0.075
+	Animate	HealthBG					bgcolor		"255 50 50 255"		Linear 0.0 0.0
+
+	Animate	MultipleBG					bgcolor		"255 0 0 255"		Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -285,7 +284,7 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthShadow		fgcolor		"dm_shadows"		Linear 0.0 0.0
 	
 	Animate	TournamentHealth			fgcolor		"24 24 24 255"		Linear 0.0 0.0
-	Animate	TargetHealth				fgcolor		"0 0 0 0"	Linear 0.0 0.0
+	Animate	TargetHealthStatic			fgcolor		"24 24 24 255"		Linear 0.0 0.0
 	
 	Animate	HealthBG					bgcolor		"220 220 220 200"		Linear 0.0 0.0
 	

@@ -114,22 +114,6 @@
 		"labeltext"		"%health%"
 		"textAlignment"	"center"	
 	}
-	"TargetHealth"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TargetHealth"
-		"xpos"			"0"
-		"ypos"			"-2"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"1"
-		"font"			"NovecentoBook14.blur"
-		"fgcolor"		"0 0 0"
-		"labeltext"		"%health%"
-		"textAlignment"	"center"	
-	}
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"
