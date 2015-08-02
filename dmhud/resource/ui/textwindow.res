@@ -26,7 +26,7 @@
 		"tall"			"430"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"180 180 180 255"
+		"fillcolor"		"Panel.Bottom"
 		//"image"			"replay/thumbnails/panel_dark"
 		"scaleImage"		"1"
 		//"Alpha"			"190"
@@ -62,7 +62,7 @@
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"220 220 220 255"
+		"fillcolor"		"Panel.Top"
 	}	
 	"TextMessage"
 	{
@@ -113,12 +113,12 @@
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"c75"
-		"ypos"			"r60"
+		"ypos"			"r58"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"148"
+		"tall"			"26"
 		"autoResize"	"0"
-		"pinCorner"		"2"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
@@ -129,7 +129,10 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"RobotoMedium14"
+		"font"			"RobotoMedium20"
+		
+		"border"		"NoBorder"
+		"border_armed"	"NoBorder"
 		
 		"paintbackground"	"1"
 			
@@ -138,10 +141,10 @@
 		"armedFgColor_override" "btn_armed"
 		"depressedFgColor_override" "btn_pressed"
 			
-		"bgcolor_override"		"100 100 100 0"
-		"defaultBgColor_override" "200 200 200 0"
-		"armedBgColor_override" "100 100 100 0"
-		"depressedBgColor_override" "100 100 100 0"
+		"bgcolor_override"		"blank"
+		"defaultBgColor_override" "blank"
+		"armedBgColor_override" "blank"
+		"depressedBgColor_override" "blank"
 	}
 	"ButtonBG"
 	{
@@ -154,7 +157,7 @@
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"220 220 220 255"
+		"fillcolor"		"Panel.Top"
 	}	
 	"hiddenbutton"
 	{

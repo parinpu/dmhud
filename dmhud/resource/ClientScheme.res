@@ -31,7 +31,7 @@ Scheme
 		"bc_black01"				"0 0 0 255"
 		"bc_black02"				"24 24 24 255"
 		"bc_white01"				"244 244 244 255"
-		"flavor"					"0 200 255 255"
+		"flavor"					"0 150 255 255"
 		
 		//General stuff				Colors				Dank desc.
 		"dm_statbars"				"38 147 200 255" 	//Stats bars
@@ -66,6 +66,16 @@ Scheme
 		"dm_uberFX"					"255 255 255 255"		//Charge meter "flashing" effect
 		"dm_uber"					"244 244 244 255"	//Charge label normal color
 		"dm_uberReady"				"0 200 255 255"	//Charge label ready color
+		
+		//Menu
+		
+		"Panel.Top"					"244 244 244 255"
+		"Panel.Bottom"				"200 200 200 255"
+		"Panel.Title"				"0 150 255 255"
+		"Panel.Body"				"24 24 24 255"
+		"Panel.Default"				"244 244 244 255"
+		"Panel.Armed"				"200 200 200 255"
+		"Panel.Pressed"				"180 180 180 255"
 		
 
 		//Scoreboard
@@ -522,7 +532,7 @@ Scheme
 			"2"
 			{
 				"name"		"Roboto"
-				"tall"		"13"	[$WIN32]
+				"tall"		"14"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4952,6 +4962,162 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		Border.BlueTeam
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "38 147 200 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "38 147 200 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "38 147 200 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "38 147 200 255"
+					"offset" "0 0"
+				}
+			}
+		}
+		Border.RedTeam
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "200 20 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "200 20 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "200 20 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "200 20 0 255"
+					"offset" "0 0"
+				}
+			}
+		}
+		Border.WhiteBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "244 244 244 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "244 244 244 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "244 244 244 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "244 244 244 255"
+					"offset" "0 0"
+				}
+			}
+		}
+		Border.BlackBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "24 24 24 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "24 24 24 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "24 24 24 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "24 24 24 255"
+					"offset" "0 0"
+				}
+			}
+		}
 		NoBorder
 		{
 			"inset" "0 0 0 0"

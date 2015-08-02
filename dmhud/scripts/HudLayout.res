@@ -1,6 +1,20 @@
 "Resource/HudLayout.res"
 {
-
+	"TransparentViewmodelMask"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"	"TransparentViewmodelMask"
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos"	"-100"
+		"wide"	"f0"
+		"tall"	"480"
+		"visible"	"0"
+		"enabled"	"1"
+		"image"	"replay/thumbnails/REFRACTnormal_transparent"
+		"scaleImage"	"1"
+	}
 	// CROSSHAIRS
 	//Center your xhair using this.
 	
@@ -351,9 +365,9 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-50"
+		"xpos"	"c-45"
 		"ypos"	"0"
-		"wide"	"100"
+		"wide"	"90"
 		"tall"	"160"
 		
 		"blue_active_xpos"			"0"
@@ -1506,20 +1520,20 @@
 		"wide"					"f0"
 		"tall"					"50"
 	}	
-	
 	"HudAchievementTracker"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudAchievementTracker"
-		"xpos"			"5"
-		"NormalY"		"10"
-		"EngineerY"		"170"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"280"
-		"visible"		"1"
-		"enabled"		"1"	
-	}
+		"ControlName"   "EditablePanel"
+		"fieldName"             "HudAchievementTracker"
+		"xpos"                  "0"
+		"ypos"					"0"	
+		"NormalY"               "0"
+		"EngineerY"             "0"
+		"wide"                  "f0"
+		"tall"                  "480"
+		"visible"               "1"
+		"enabled"               "1"    
+		"zpos"                  "-100"
+    }
 	
 	HudTrainingInfoMsg
 	{

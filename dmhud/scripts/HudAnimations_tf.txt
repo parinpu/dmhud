@@ -239,7 +239,7 @@ event HudHealthBonusPulseStop
 	Animate	TournamentHealth			fgcolor		"24 24 24 255"		Linear 0.0 0.0
 	Animate	TargetHealthStatic			fgcolor		"24 24 24 255"		Linear 0.0 0.0
 	
-	Animate	HealthBG					bgcolor		"220 220 220 255"		Linear 0.0 0.0
+	Animate	HealthBG					bgcolor		"Panel.Top"		Linear 0.0 0.0
 	Animate	MultipleBG					bgcolor		"220 220 220 0"		Linear 0.0 0.0
 }
 
@@ -286,7 +286,7 @@ event HudHealthDyingPulseStop
 	Animate	TournamentHealth			fgcolor		"24 24 24 255"		Linear 0.0 0.0
 	Animate	TargetHealthStatic			fgcolor		"24 24 24 255"		Linear 0.0 0.0
 	
-	Animate	HealthBG					bgcolor		"220 220 220 200"		Linear 0.0 0.0
+	Animate	HealthBG					bgcolor		"Panel.Top"		Linear 0.0 0.0
 	
 	Animate	MultipleBG					bgcolor		"220 220 220 0"		Linear 0.0 0.0
 }

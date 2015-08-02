@@ -87,16 +87,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"border_default"	"NoBorder"
+		"border_default"	"Border.WhiteBorder"
 		
 		"fgcolor_override"		"0"
 		"defaultFgColor_override" "0"
 		"armedFgColor_override" "0"
 		"depressedFgColor_override" "0"
 		
-		"defaultBgColor_override" "220 220 220 255"
-		"armedBgColor_override" "220 220 220 255"
-		"depressedBgColor_override" "220 220 220 255"
+		"defaultBgColor_override" "Panel.Top"
+		"armedBgColor_override" "Panel.Top"
+		"depressedBgColor_override" "Panel.Top"
 	}
 	"TargetHealthStatic"
 	{

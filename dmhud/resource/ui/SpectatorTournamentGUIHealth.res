@@ -96,8 +96,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"border"		"NoBorder"
-		"border_default"	"NoBorder"
+		"border"		"Border.WhiteBorder"
+		"border_default"	"Border.WhiteBorder"
 		"paintbackground"	"1"
 			
 		"fgcolor_override"		"0"

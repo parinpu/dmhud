@@ -80,7 +80,7 @@
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"180 180 180 255"
+		"fillcolor"			"Panel.Bottom"
 	}
 	"TargetNameLabel"
 	{	

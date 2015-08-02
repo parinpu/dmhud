@@ -28,8 +28,8 @@
 		"fieldName"		"TimePanelNewBG"
 		"xpos"			"c-20"
 		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"2"
+		"zpos"			"-1"
+		"wide"			"40"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -46,28 +46,15 @@
 		"draw_corner_height" 	"0"	
 		"Alpha"			"255"
 	}
-	"TimerBackground"
+	"ValueBackground"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"TimerBackground"
-		"xpos"				"c-20"
+		"fieldName"			"ValueBackground"
+		"xpos"				"c-18"
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"40"
-		"tall"				"16"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"180 180 180 255"
-	}
-	"Design"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"Design"
-		"xpos"				"c-18"
-		"ypos"				"2"
-		"zpos"				"0"
 		"wide"				"36"
-		"tall"				"12"
+		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"220 220 220 255"
@@ -85,7 +72,7 @@
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"			"TimerProgress.Active"
+		"color_active"			"244 244 244 255"
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
@@ -98,7 +85,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"15"
+		"tall"			"16"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"Waiting for players"
@@ -107,11 +94,11 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Roboto12"
-		"fgcolor"		"dm_text"
+		"fgcolor"		"bc_White01"
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"c20"
 		"ypos"			"0"
@@ -120,8 +107,11 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""	
-		"fillcolor"		"180 180 180 255"
+		"image"			"replay/thumbnails/panel_dark"
+		"scaleImage"		"1"
+		"teambg_1"		"replay/thumbnails/panel_dark"
+		"teambg_2"		"replay/thumbnails/panel_red"
+		"teambg_3"		"replay/thumbnails/panel_blue"
 	}
 	"OvertimeLabel"
 	{
@@ -205,12 +195,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Roboto12"
-		"fgcolor"		"dm_text"
+		"font"			"Roboto14"
+		"fgcolor"		"bc_White01"
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"c20"
 		"ypos"			"0"
@@ -219,8 +209,15 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""	
-		"fillcolor"		"180 180 180 255"
+		"teambg_1"		"replay/thumbnails/panel_dark"
+		"teambg_2"		"replay/thumbnails/panel_red"
+		"teambg_3"		"replay/thumbnails/panel_blue"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+		
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	"ServerTimeLimitLabel"
 	{
