@@ -44,8 +44,8 @@ Scheme
 		"dm_lowhealth"				"255 200 0 255"		//Health when u r ded	
 		"dm_lowhealthFX"			"255 100 0 255"		//Health when u r ded and ded
 		"dm_shadows"				"24 24 24 255"		//Shadows, no desc needed
-		"dm_damagePositive"			"0 255 255 255"		//Healing numbers
-		"dm_damageNegative"			"255 255 0 255"		//Damage.. duh
+		"dm_damagePositive"			"0 255 200 255"		//Healing numbers
+		"dm_damageNegative"			"255 255 255 255"		//Damage.. duh
 		"dm_meterFG"				"219 23 116 255"	//General colors
 		"dm_meterBG"				"244 244 244 255"	//General colors
 		"dm_timer"					"244 244 244 255"	//tick tack
@@ -62,7 +62,7 @@ Scheme
 		
 		//Medic colors
 		"dm_uberFG"					"0 200 255 255"	//Charge meter top color
-		"dm_uberBG"					"244 244 244 255"	//Charge meter back color
+		"dm_uberBG"					"244 244 244 0"	//Charge meter back color
 		"dm_uberFX"					"255 255 255 255"		//Charge meter "flashing" effect
 		"dm_uber"					"244 244 244 255"	//Charge label normal color
 		"dm_uberReady"				"0 200 255 255"	//Charge label ready color
@@ -4962,14 +4962,14 @@ Scheme
 	// describes all the border types
 	Borders
 	{
-		Border.BlueTeam
+		Border.ButtonArmed
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "38 147 200 255"
+					"color" "0 150 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4978,7 +4978,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "38 147 200 255"
+					"color" "0 150 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4987,7 +4987,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "38 147 200 255"
+					"color" "0 150 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4996,19 +4996,19 @@ Scheme
 			{
 				"1"
 				{
-					"color" "38 147 200 255"
+					"color" "0 150 255 255"
 					"offset" "0 0"
 				}
 			}
 		}
-		Border.RedTeam
+		Border.LoadoutActive
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "200 20 0 255"
+					"color" "0 150 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -5017,7 +5017,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "200 20 0 255"
+					"color" "0 150 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -5026,7 +5026,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "200 20 0 255"
+					"color" "0 150 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -5035,7 +5035,46 @@ Scheme
 			{
 				"1"
 				{
-					"color" "200 20 0 255"
+					"color" "244 244 244 0"
+					"offset" "0 0"
+				}
+			}
+		}
+		Border.LoadoutInactive
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "244 244 244 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "244 244 244 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "244 244 244 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "244 244 244 0"
 					"offset" "0 0"
 				}
 			}

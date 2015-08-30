@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"dm_mainmenu"
-		"infocus_bgcolor_override" "dm_mainmenu"
-		"outoffocus_bgcolor_override" "dm_mainmenu"
+		"bgcolor_override"	"24 24 24 255"
+		"infocus_bgcolor_override" "24 24 24 255"
+		"outoffocus_bgcolor_override" "24 24 24 255"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"

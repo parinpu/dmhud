@@ -104,8 +104,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"		"dm_uberFG"
+		"fgcolor_override"		"0 150 255 255"
 		"bgcolor_override"		"dm_uberBG"
+		"border"	"border.WhiteBorder"
 	}		
 	"ChargeMeter1"
 	{	

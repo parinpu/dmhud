@@ -22,31 +22,28 @@
 		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
 	}
-	"HorizontalLine"
+	"SetupBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"HorizontalLine"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"120"
-		"tall"				"1"
-		"visible"			"0"
-		"enabled"			"1"
-		"fillcolor"			"bc_white01"
-	}
-	"TSetupBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TSetupBackground"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-1"
-		"wide"				"120"
-		"tall"				"25"
-		"visible"			"0"
-		"enabled"			"1"
-		"fillcolor"			"dm_scoresBackground"
+		"fieldName"		"SetupBG"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"-1"
+		"wide"			"50"
+		"tall"			"25"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"replay/thumbnails/panel_dark"
+		"fillcolor"		"200 200 200 100"
+
+		"border"		"border.WhiteBorder"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentSetupLabel"
 	{	
@@ -92,7 +89,6 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"TournamentNameEdit"
-		"font_override"			"Roboto8"
 		"xpos"		"0"
 		"ypos"		"10"
 		"wide"		"50"
@@ -127,8 +123,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"bc_white01"
-		"scaleImage"	"1"
+		"fillcolor"	"24 24 24 100"
 	}
 
 	"TournamentNotReadyButton"
@@ -145,7 +140,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"NO"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"teamnotready"
@@ -194,7 +189,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"no"
-		"xpos"		"27"
+		"xpos"		"25"
 		"ypos"		"20"
 		"wide"		"25"
 		"tall"		"15"
@@ -202,7 +197,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"labelText"		"NO"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"RobotoBold12"
 		"fgcolor"		"bc_white01"
 	}

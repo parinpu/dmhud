@@ -17,8 +17,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"		"0 255 255 255"
-		"bgcolor_override"		"244 244 244 100"
+		"fgcolor_override"		"0 150 255 255"
+		"bgcolor_override"		"244 244 244 0"
+		
+		"border"			"border.WhiteBorder"
 	}	
 
 }

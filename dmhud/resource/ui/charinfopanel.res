@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"dm_mainmenu"
-		"infocus_bgcolor_override"		"dm_mainmenu"
-		"outoffocus_bgcolor_override"	"dm_mainmenu"
+		"bgcolor_override"				"Panel.Bottom"
+		"infocus_bgcolor_override"		"Panel.Bottom"
+		"outoffocus_bgcolor_override"	"Panel.Bottom"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"Roboto18"
@@ -40,25 +40,11 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"visible"		"0"
-		"enabled"		"1"
-			"fillcolor"		"dm_mainmenuTop"
-	//	"image"			"loadout_header"
-		"tileImage"		"0"
-	}	
-	"TacticalHide"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TacticalHide"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"dm_mainmenu"
-	}		
+		"image"			"replay/thumbnails/panel_dark"
+		"tileImage"		"1"
+	}	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -70,8 +56,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		//"image"			"loadout_bottom_gradient"
-		"fillcolor"		"dm_mainmenuTop"
+		"image"			"replay/thumbnails/panel_dark"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -82,11 +67,10 @@
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"2"
+		"tall"			"1"
 		"visible"		"1"
 		"enabled"		"1"
-		//"image"			"loadout_solid_line"
-		"fillcolor"		"bc_white01"
+		"fillcolor"		"0 150 255 255"
 		"scaleImage"	"1"
 	}				
 	
@@ -105,27 +89,27 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
-			"zpos"			"5"
+			"ypos"			"34"
+			"zpos"			"10"
 			"wide"			"f0"
-			"tall"			"2"
+			"tall"			"1"
 			"visible"		"1"
 			"enabled"		"1"
-			//"image"			"loadout_solid_line"
-			"fillcolor"		"bc_white01"
+			"fillcolor"		"0 150 255 255"
 			"scaleImage"	"1"
 		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
+			"textinsetx"		"20"
 			"font"				"Roboto16"
-			"selectedcolor"		"244 244 244 255"
-			"unselectedcolor"	"80 80 80 255"	
-			"defaultBgColor_override"	"dm_mainmenu"
+			"textAlignment"		"center"
+			"selectedcolor"		"bc_white01"
+			"unselectedcolor"	"bc_white01"	
+			"defaultBgColor_override"	"0"
 			"paintbackground"	"0"
-			//"activeborder_override"	"OutlinedGreyBox"
-			//"normalborder_override" "OutlinedDullGreyBox"
+			"activeborder_override"	"border.LoadoutActive"
+			"normalborder_override" "border.LoadoutInactive"
 		}
 	}
 	
@@ -133,11 +117,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-50"
-		"ypos"			"440"
+		"xpos"			"80"
+		"ypos"			"435"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -154,12 +138,20 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"paintbackground"	"0"
+		"border_default"	"Border.WhiteBorder"
+		"border_armed"		"Border.ButtonArmed"
+		
+		"paintbackground"	"1"
 			
-		"fgcolor_override"		"btn_default"
-		"defaultFgColor_override" "btn_default"
-		"armedFgColor_override" "btn_armed"
-		"depressedFgColor_override" "btn_pressed"
+		"fgcolor_override"		"bc_white01"
+		"defaultFgColor_override" "bc_white01"
+		"armedFgColor_override" "bc_white01"
+		"depressedFgColor_override" "bc_white01"
+		
+		"bgcolor_override"		"0 0 0 0"
+		"defaultbgColor_override" "0 0 0 0"
+		"armedbgColor_override" "0 0 0 0"
+		"depressedbgColor_override" "0 0 0 0"
 	}		
 	
 	"NotificationsPresentPanel"

@@ -302,21 +302,18 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"0"
-		"ypos"			"4"
+		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"99"
-		"tall"			"15"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panel_blue"
-
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
 		
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"border"		"border.WhiteBorder"
+
 		
 		if_mvm
 		{
@@ -327,13 +324,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"RobotoMedium14"
+		"font"			"RobotoBold14"
 		"fgcolor"		"bc_white01"
 		"xpos"			"2"
-		"ypos"			"4"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"50"
-		"tall"			"15"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -354,10 +351,10 @@
 		"font"			"Roboto10"
 		"fgcolor"		"bc_white01"
 		"xpos"			"47"
-		"ypos"			"4"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"50"
-		"tall"			"15"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -377,21 +374,17 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"101"
-		"ypos"			"4"
+		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"99"
-		"tall"			"15"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panel_red"
 
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
-		
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"border"		"border.WhiteBorder"
 		
 		if_mvm
 		{
@@ -402,13 +395,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"RobotoMedium14"
+		"font"			"RobotoBold14"
 		"fgcolor"		"bc_white01"
 		"xpos"			"148"
-		"ypos"			"4"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"50"
-		"tall"			"15"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -429,10 +422,10 @@
 		"font"			"Roboto10"
 		"fgcolor"		"bc_white01"
 		"xpos"			"103"
-		"ypos"			"4"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"48"
-		"tall"			"15"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -446,6 +439,29 @@
 			"visible"		"0"
 		}
 	}
+	"ConditionsBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ConditionsBG"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"10"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"replay/thumbnails/panel_dark"
+		"fillcolor"		"200 200 200 100"
+
+		"border"		"border.WhiteBorder"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"TournamentConditionLabel"
 	{	
 		"ControlName"		"CExLabel"
@@ -453,7 +469,7 @@
 		"font"			"Roboto10"
 		"fgcolor"		"bc_white01"
 		"xpos"			"0"
-		"ypos"			"18"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"10"
@@ -470,30 +486,7 @@
 			"visible"		"0"
 		}
 	}
-	"TournamentConditionLabelglow"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TournamentConditionLabelglow"
-		"font"			"Roboto10.blur"
-		"fgcolor"		"0 200 200 200"
-		"xpos"			"0"
-		"ypos"			"18"
-		"zpos"			"0"
-		"wide"			"200"
-		"tall"			"10"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%winconditions%"
-		"textAlignment"		"center"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
+
 	"HudTournamentBGHelp"
 	{
 		"ControlName"		"ScalableImagePanel"

@@ -26,11 +26,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimePanelNewBG"
-		"xpos"			"c-20"
+		"xpos"			"c-17"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"16"
+		"wide"			"34"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panel_dark"
@@ -40,24 +40,11 @@
 		"teambg_3"		"replay/thumbnails/panel_blue"
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-		
+		"border"			"border.WhiteBorder"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 		"Alpha"			"255"
-	}
-	"ValueBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ValueBackground"
-		"xpos"				"c-18"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"36"
-		"tall"				"16"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"220 220 220 255"
 	}
 	"TimePanelProgressBar"
 	{
@@ -85,7 +72,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"Waiting for players"
@@ -98,20 +85,17 @@
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"c20"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panel_dark"
-		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/panel_dark"
-		"teambg_2"		"replay/thumbnails/panel_red"
-		"teambg_3"		"replay/thumbnails/panel_blue"
+		"fillcolor"		"220 220 220 100"
+		"border"		"border.WhiteBorder"
 	}
 	"OvertimeLabel"
 	{
@@ -121,7 +105,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -140,11 +124,11 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""	
-		"fillcolor"		"180 180 180 255"
+		"fillcolor"		"220 220 220 100"
+		"border"		"border.WhiteBorder"
 	}
 	"SuddenDeathLabel"
 	{
@@ -154,7 +138,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -173,11 +157,11 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""	
-		"fillcolor"		"180 180 180 255"
+		"fillcolor"		"220 220 220 100"
+		"border"		"border.WhiteBorder"
 	}	
 	"SetupLabel"
 	{
@@ -187,7 +171,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -200,34 +184,27 @@
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"c20"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"teambg_1"		"replay/thumbnails/panel_dark"
-		"teambg_2"		"replay/thumbnails/panel_red"
-		"teambg_3"		"replay/thumbnails/panel_blue"
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-		
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"fillcolor"		"220 220 220 100"
+		"border"		"border.WhiteBorder"
 	}
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"c-60"
-		"ypos"			"0"
+		"xpos"			"c-17"
+		"ypos"			"14"
 		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"13"
+		"wide"			"34"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -235,29 +212,31 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NovecentoMedium14"
+		"font"			"NovecentoMedium10"
 		"fgcolor"		"dm_timerServertime"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"c-60"
-		"ypos"			"0"
+		"xpos"			"c-17"
+		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"16"
+		"wide"			"34"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"image"			"replay/thumbnails/panel_dark"
-		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/panel_dark"
-		"teambg_2"		"replay/thumbnails/panel_red"
-		"teambg_3"		"replay/thumbnails/panel_blue"
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		//"image"			"replay/thumbnails/panel_dark"
+		//"scaleImage"		"1"
+		//"teambg_1"		"replay/thumbnails/panel_dark"
+		//"teambg_2"		"replay/thumbnails/panel_red"
+		//"teambg_3"		"replay/thumbnails/panel_blue"
+		//"src_corner_height"		"23"				// pixels inside the image
+		//"src_corner_width"		"23"
+		"fillcolor"		"220 220 220 100"
 		
+		"border"		"border.WhiteBorder"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	

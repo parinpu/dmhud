@@ -163,7 +163,7 @@
 		"font"						"tall 10 outline"
 		"labelText"					"a"
 		"textAlignment"				"center"
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"0 255 255 255"
 	}
 	"hollow cross"
 	{
@@ -227,7 +227,7 @@
 		"font"						"tall 22 outline"
 		"labelText"					"e"
 		"textAlignment"				"center"
-		"fgcolor"					"255 255 0 255"
+		"fgcolor"					"0 255 0 255"
 	}
 	"pulse circle"
 	{
@@ -344,7 +344,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c0"
-		"ypos"	"r180"
+		"ypos"	"r160"
 		"wide"	"250"
 		"tall"	"120"
 	}
@@ -400,7 +400,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-50"
-		"ypos"			"r180"
+		"ypos"			"r160"
 		"wide"			"320"
 		"tall"			"120"
 	}
@@ -411,7 +411,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-50"	
-		"ypos"			"r130"	
+		"ypos"			"r120"	
 		"zpos"			"0"			// draw in front of ammo
 		"wide"			"100"
 		"tall"			"8"
@@ -565,13 +565,12 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"310"
 		"wide"	 	"252"
-		"tall"	 	"30"
+		"tall"	 	"24"
 		"priority"	"40"
 		"priority_lodef"	"5"
 		
-		"ypos_minmode"		"340"
 
 		if_vr
 		{
@@ -586,7 +585,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"340"
+		"ypos"		"310"
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"40"
@@ -602,7 +601,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"370"
+		"ypos"		"390"
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"35"
@@ -797,14 +796,15 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "5"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "14"
+		"LineHeight"	  "16"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"RobotoMedium14"
+		
+		"TextFont"		"RobotoMedium16"
 		
 		//"TeamBlue"		"HUDBlueTeamSolid"
 		//"TeamRed"		"HUDRedTeamSolid"
@@ -815,8 +815,8 @@
 
 		//"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
 		//"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"24 24 24 100"	
-		"LocalBackgroundColor"	"220 220 220 200"
+		"BaseBackgroundColor"	"50 50 50 255"	
+		"LocalBackgroundColor"	"220 220 220 255"
 	}
 
 	HudVehicle
@@ -1339,7 +1339,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-50"
-		"ypos"			"r150"
+		"ypos"			"r140"
 		"wide"			"100"
 		"tall"			"60"
 	}	
