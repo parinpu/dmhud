@@ -240,7 +240,7 @@ event HudHealthBonusPulseStop
 	Animate	TargetHealthStatic			fgcolor		"24 24 24 255"		Linear 0.0 0.0
 	
 	Animate	HealthBG					bgcolor		"Panel.Top"		Linear 0.0 0.0
-	Animate	MultipleBG					bgcolor		"220 220 220 0"		Linear 0.0 0.0
+	Animate	MultipleBG					bgcolor		"Panel.Top"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -264,7 +264,7 @@ event HudHealthDyingPulse
 	
 	Animate	HealthBG					bgcolor		"255 50 50 255"		Linear 0.0 0.0
 
-	Animate	MultipleBG					bgcolor		"255 0 0 255"		Linear 0.0 0.0
+	Animate	MultipleBG					bgcolor		"200 0 0 255"		Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -288,7 +288,7 @@ event HudHealthDyingPulseStop
 	
 	Animate	HealthBG					bgcolor		"Panel.Top"		Linear 0.0 0.0
 	
-	Animate	MultipleBG					bgcolor		"220 220 220 0"		Linear 0.0 0.0
+	Animate	MultipleBG					bgcolor		"Panel.Top"		Linear 0.0 0.0
 }
 
 //===========================================

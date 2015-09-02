@@ -5521,7 +5521,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panel_red"
+			"image"					"replay/thumbnails/panel_red_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
@@ -5532,7 +5532,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/panel_blue"
+			"image"					"replay/thumbnails/panel_blue_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional

@@ -365,15 +365,15 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-45"
+		"xpos"	"c-35"
 		"ypos"	"0"
-		"wide"	"90"
+		"wide"	"70"
 		"tall"	"160"
 		
 		"blue_active_xpos"			"0"
 		//"blue_active_xpos_minmode"	"55"
 	
-		"red_active_xpos"			"50"
+		"red_active_xpos"			"36"
 		//"red_active_xpos_minmode"	"105"
 	}	
 
@@ -526,7 +526,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-185"
-		"ypos"					"r120"
+		"ypos"					"r100"
 		"wide"					"100"
 		"tall"  				"30"
 		"visible" 				"1"
