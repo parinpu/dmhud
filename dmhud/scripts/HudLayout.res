@@ -796,15 +796,15 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "6"
+		"MaxDeathNotices" "9"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
+		"LineHeight"	  "14"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "2"
+		"CornerRadius"	  "1.5"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		
-		"TextFont"		"RobotoMedium16"
+		"TextFont"		"Roboto14"
 		
 		//"TeamBlue"		"HUDBlueTeamSolid"
 		//"TeamRed"		"HUDRedTeamSolid"

@@ -219,7 +219,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NovecentoMedium10"
+		"font"			"NovecentoBook10"
 		"fgcolor"		"dm_timerServertime"
 	}	
 	"ServerTimeLimitLabelBG"

@@ -3229,8 +3229,134 @@ Scheme
 			"outline"   "0"
 			}
 		}
-		
-		
+
+	//A beat
+		"Font8"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"8"
+				"antialias" 	"1"
+			}
+		}
+		"Font10"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}
+		"Font12"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"12"
+				"antialias" 	"1"
+			}
+		}
+		"Font14"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"14"
+				"antialias" 	"1"
+			}
+		}
+		"Font16"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"16"
+				"antialias" 	"1"
+			}
+		}
+		"Font18"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"18"
+				"antialias" 	"1"
+			}
+		}
+		"Font20"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"20"
+				"antialias" 	"1"
+			}
+		}
+		"Font22"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"22"
+				"antialias" 	"1"
+			}
+		}
+		"Font24"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"24"
+				"antialias" 	"1"
+			}
+		}
+		"Font26"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"26"
+				"antialias" 	"1"
+			}
+		}
+		"Font28"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"28"
+				"antialias" 	"1"
+			}
+		}
+		"Font30"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"30"
+				"antialias" 	"1"
+			}
+		}
+		"Font32"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"32"
+				"antialias" 	"1"
+			}
+		}
+		"Font34"              
+		{
+			"1"
+			{
+				"name"			"abeatbyKai"
+				"tall"			"34"
+				"antialias" 	"1"
+			}
+		}
 
 	Roboto Regular
 
@@ -7721,5 +7847,10 @@ Scheme
 			"name"		"Roboto Bold"
 		}
 		"17" "resource/ocra.ttf"
+		"18"
+		{
+			"font"		"resource/fonts/ABEAKRG.ttf"
+			"name"		"abeatbyKai"
+		}
 	}
 }

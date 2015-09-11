@@ -25,7 +25,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"170"
+			"wide"			"150"
 			"tall"			"12"
 			"zpos"			"1"
 			
@@ -47,7 +47,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"24 24 24 255"
+				"fgcolor"		"244 244 244 255"
 				"textinsetx"	"5"
 			}
 			"NameBG"
@@ -61,7 +61,7 @@
 				"tall"			"12"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"200 200 200 0"
+				"fillcolor"		"0"
 			}
 			"ClassBG"
 			{
@@ -107,10 +107,10 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"135"
+				"xpos"				"115"
 				"ypos"				"0"
 				"zpos"				"10"
-				"wide"				"35"
+				"wide"				"40"
 				"tall"				"16"
 				"visible"			"1"
 				"enabled"			"1"	
@@ -174,7 +174,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"NovecentoBook10"
-				"xpos"			"135"
+				"xpos"			"115"
 				"ypos"			"-1"
 				"zpos"			"40"
 				"wide"			"35"
@@ -191,10 +191,10 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawnshadow"
 				"font"			"Blocks"
-				"xpos"			"135"
+				"xpos"			"115"
 				"ypos"			"0"
 				"zpos"			"30"
-				"wide"			"35"
+				"wide"			"36"
 				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -202,7 +202,7 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"24 24 24 255"
-				"border"		"border.WhiteBorder"
+				"border"		"NoBorder"
 			}
 			"respawnGlow"
 			{
@@ -226,7 +226,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"NovecentoMedium10"
-				"xpos"			"110"
+				"xpos"			"90"
 				"ypos"			"-1"
 				"zpos"			"36"
 				"wide"			"25"
@@ -244,7 +244,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountshadow"
 				"font"			"Blocks"
-				"xpos"			"110"
+				"xpos"			"90"
 				"ypos"			"0"
 				"zpos"			"30"
 				"wide"			"25"
@@ -254,7 +254,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
-				"fgcolor"		"220 220 220 255"
+				"fgcolor"		"244 244 244 255"
 				"border"		"NoBorder"
 			}
 			"specindex"
