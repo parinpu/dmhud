@@ -552,8 +552,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"100"
-		"ypos"		"r28"
+		"xpos"		"75"
+		"ypos"		"r24"
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]

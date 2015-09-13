@@ -68,8 +68,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"NovecentoMedium20"
-		"fgcolor"		"dm_ammoreserve"
+		"font"			"NovecentoMedium22"
+		"fgcolor"		"0 150 255 255"
 		"xpos"			"175"
 		"ypos"			"15"
 		"zpos"			"7"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"NovecentoMedium20.blur"
+		"font"			"NovecentoMedium22.blur"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"176"
 		"ypos"			"16"

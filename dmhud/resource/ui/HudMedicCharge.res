@@ -37,7 +37,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NovecentoBold44"
-		"fgcolor"		"dm_uber"
+		"fgcolor"		"244 244 244 255"
 		
 	}
 	"ChargeLabelShadow"
