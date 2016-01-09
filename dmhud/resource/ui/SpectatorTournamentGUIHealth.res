@@ -55,19 +55,6 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"HPBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HPBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"25"
-		"tall"			"16"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"220 220 220 255"	
-	}
 	"TournamentHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -81,8 +68,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"NovecentoBold12"
-		"fgcolor"		"24 24 24 255"	
+		"font"			"NovecentoBook14"
+		"fgcolor"		"dm_white"	
 	}
 	"MultipleBG"
 	{
@@ -105,8 +92,8 @@
 		"armedFgColor_override" "0"
 		"depressedFgColor_override" "0"
 			
-		"bgcolor_override"		"Panel.Top"
-		"defaultBgColor_override" "Panel.Top"
+		"bgcolor_override"		"dm_shadows"
+		"defaultBgColor_override" "dm_shadows"
 		"armedBgColor_override" "100 100 100 0"
 		"depressedBgColor_override" "100 100 100 0"
 	}

@@ -206,6 +206,7 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthShadow 	fgcolor		"20 120 150 255"	Linear 0.0 0.0
 	Animate HealthBG			bgcolor		"20 120 150 255"		Linear 0.0 0.0
+	Animate MultipleBG			bgcolor		"20 120 150 255"		Linear 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -223,6 +224,7 @@ event HudHealthBonusPulseStop
 	
 	Animate	PlayerStatusHealthShadow 	fgcolor		"dm_shadows"	Linear 0.0 0.0
 	Animate HealthBG			bgcolor		"24 24 24 255"		Linear 0.0 0.0
+	Animate MultipleBG			bgcolor		"24 24 24 255"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -234,6 +236,7 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthShadow 	fgcolor		"100 24 24 255"		Linear 0.11 0.1
 	
 	Animate HealthBG			bgcolor		"150 100 0 255"		Linear 0.0 0.0
+	Animate MultipleBG			bgcolor		"150 100 0 255"		Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -250,6 +253,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
 	Animate	PlayerStatusHealthShadow		fgcolor		"dm_shadows"		Linear 0.0 0.0
+	Animate	HealthBG		fgcolor			"dm_shadows"		Linear 0.0 0.0
+	Animate	MultipleBG		fgcolor			"dm_shadows"		Linear 0.0 0.0
 }
 
 //===========================================
