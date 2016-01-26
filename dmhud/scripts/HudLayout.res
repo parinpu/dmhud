@@ -150,11 +150,11 @@
 		"xpos"						"c-25"
 		"ypos"						"c-25"
 		"wide"						"50"
-		"tall"						"51"
-		"font"						"tall 22 outline"
+		"tall"						"50"
+		"font"						"tall 18 outline"
 		"labelText"					"e"
 		"textAlignment"				"center"
-		"fgcolor"					"0 255 0 255"
+		"fgcolor"					"255 255 255 255"
 	}
 	"pulse circle"
 	{
@@ -1672,5 +1672,27 @@
 		"ypos"			"0"
 		"wide"	 		"f0"
 		"tall"	 		"f0"
+	}
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 }
