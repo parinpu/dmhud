@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"dm_mainmenu"
+		"bgcolor_override"	"dm_gray"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
