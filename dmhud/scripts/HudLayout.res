@@ -15,12 +15,32 @@
 		"image"	"replay/thumbnails/REFRACTnormal_transparent"
 		"scaleImage"	"1"
 	}
+	"multi xhair"
+	{
+		"controlName"				"CExLabel"
+		"fieldName"					"multi xhair"
+		"visible"					"0"
+		"enabled"					"1"
+		"zpos"						"1"
+		"xpos"						"c-25"
+		"ypos"						"c-25"
+		"wide"						"50"
+		"tall"						"51"
+		"font"						"tall 10 outline"
+		
+		
+		"labelText"					"a"	//defines the crosshair
+		
+		
+		"textAlignment"				"center"
+		"fgcolor"					"0 255 255 255"
+	}
 	// CROSSHAIRS
 	//Center your xhair using this.
-	"utility 1"
+	"horizontal pilot"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"utility 1"
+		"fieldName"			"horizontal pilot"
 		"xpos"				"0"
 		"ypos"				"c-1"
 		"zpos"				"0"
@@ -30,10 +50,10 @@
 		"enabled"			"1"
 		"fillcolor"			"255 255 255 100"
 	}
-	"utility 2"
+	"vertical pilot"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"utility 2"
+		"fieldName"			"horizontal pilot"
 		"xpos"				"c-1"
 		"ypos"				"0"
 		"zpos"				"0"

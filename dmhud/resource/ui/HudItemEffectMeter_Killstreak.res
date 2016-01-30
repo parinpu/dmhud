@@ -25,26 +25,9 @@
 		"enabled"				"1"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"east"
-		"font"					"RobotoLight16"
+		"font"					"Killstreak_label"
 		"fgcolor_override"				"bc_white01"
 	}
-	"ItemEffectMeterLabelShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabelShadow"
-		"xpos"					"1"
-		"ypos"					"1"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"16"
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"#TF_KillStreak"
-		"textAlignment"			"east"
-		"font"					"RobotoLight16"
-		"fgcolor_override"				"dm_shadows"
-	}
-
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -93,23 +76,8 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
-		"font"					"RobotoMedium16"
+		"font"					"Killstreak_count"
 		"fgcolor_override"		"0 150 255 255"
 	}
-	"ItemEffectMeterCountShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"56"
-		"ypos"					"1"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"16"	
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"font"					"RobotoMedium16"
-		"fgcolor_override"		"dm_shadows"
-	}
+
 }
