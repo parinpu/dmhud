@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"220"
+		"xpos"			"190"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"120"
@@ -33,21 +33,21 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"labelText_minmode"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NovecentoBold44"
-		"fgcolor"		"244 244 244 255"
+		"font"			"hudammonoclip"
+		"fgcolor"		"dm_ammo"
 		
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"222"
+		"xpos"			"192"
 		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"130"
+		"wide"			"120"
 		"tall"			"87"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -56,10 +56,10 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"labelText_minmode"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NovecentoBold44.blur"
+		"font"			"hudammonoclip"
 		"fgcolor"		"dm_shadows"
 		
 	}
@@ -83,8 +83,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NovecentoBold44"
-		"fgcolor"		"dm_uber"
+		"font"			"hudammonoclip"
+		"fgcolor"		"dm_ammo"
 	}
 	
 	"ChargeMeter"
@@ -93,7 +93,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"45"
+		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"4"				
@@ -105,7 +105,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"0 150 255 255"
-		"bgcolor_override"		"dm_uberBG"
+		"bgcolor_override"		"0"
 		"border"	"border_white"
 	}		
 	"ChargeMeter1"

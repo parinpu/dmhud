@@ -88,7 +88,7 @@
 	}
 	"RequestCoachButton"
 	{
-		"label"			"Request Coach"
+		"label"			"Coach"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 	}

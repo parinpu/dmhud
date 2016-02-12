@@ -70,8 +70,8 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"east"
-		"font"			"NovecentoMedium18"
-		"fgcolor_override"		"bc_white01"
+		"font"			"Bebas24"
+		"fgcolor_override"		"dm_white"
 	}
 	"BuyBackLabel"
 	{
@@ -218,11 +218,10 @@
 			"scaleImage"		"1"
 		}
 		
-		"itemmodelpanel"
+		"itemmodelpanel" 
 		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
+			"inventory_image_type"	"1"
+			"antialias"		"1"
 		}
 		
 		"ItemLabel"

@@ -38,7 +38,7 @@
 		"teambg_1"		"replay/thumbnails/panel_dark"
 		"teambg_2"		"replay/thumbnails/panel_red"
 		"teambg_3"		"replay/thumbnails/panel_blue"
-		"Alpha"			"160"
+		"Alpha"			"200"
 	}
 	"TimePanelProgressBar"
 	{
@@ -75,7 +75,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Roboto12"
-		"fgcolor"		"bc_White01"
+		"fgcolor"		"dm_text"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -88,8 +88,8 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"220 220 220 100"
-		"border"		"border.WhiteBorder"
+		"fillcolor"		"timers_info"
+		"border"		"NoBorder"
 	}
 	"OvertimeLabel"
 	{
@@ -121,8 +121,8 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"220 220 220 100"
-		"border"		"border.WhiteBorder"
+		"fillcolor"		"timers_info"
+		"border"		"NoBorder"
 	}
 	"SuddenDeathLabel"
 	{
@@ -154,8 +154,8 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"220 220 220 100"
-		"border"		"border.WhiteBorder"
+		"fillcolor"		"timers_info"
+		"border"		"NoBorder"
 	}	
 	"SetupLabel"
 	{
@@ -174,7 +174,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Roboto14"
-		"fgcolor"		"bc_White01"
+		"fgcolor"		"dm_text"
 	}	
 	"SetupBG"
 	{
@@ -187,15 +187,15 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"220 220 220 100"
-		"border"		"border.WhiteBorder"
+		"fillcolor"		"timers_info"
+		"border"		"NoBorder"
 	}
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"c-17"
-		"ypos"			"19"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"34"
 		"tall"			"10"
@@ -206,12 +206,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NovecentoBook12"
-		"fgcolor"		"dm_timerServertime"
+		"font"			"Bebas10"
+		"fgcolor"		"dm_white"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"c-17"
 		"ypos"			"20"
@@ -221,14 +221,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		//"image"			"replay/thumbnails/panel_dark"
-		//"scaleImage"		"1"
-		//"teambg_1"		"replay/thumbnails/panel_dark"
-		//"teambg_2"		"replay/thumbnails/panel_red"
-		//"teambg_3"		"replay/thumbnails/panel_blue"
-		//"src_corner_height"		"23"				// pixels inside the image
-		//"src_corner_width"		"23"
-		"fillcolor"		"220 220 220 100"
+		"image"			"replay/thumbnails/panel_dark"
+		"scaleImage"		"1"
+		"Alpha"		"200"
 		
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

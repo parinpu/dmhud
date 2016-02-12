@@ -36,9 +36,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"replay/thumbnails/panel_dark"
-		"fillcolor"		"200 200 200 100"
+		"fillcolor"		"200 200 200 200"
 
-		"border"		"border.WhiteBorder"
+		"border"		"Noborder"
 		
 		if_mvm
 		{
@@ -50,7 +50,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentLabel"
 		"font"			"FuturaMedium8"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -70,7 +70,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentTeamNameLabel"
 		"font"			"FuturaMedium10"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 		"xpos"			"1000"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -149,7 +149,7 @@
 		"fgcolor"		"0 0 0 0"
 		"defaultFgColor_override" "0 0 0 0"
 		"armedFgColor_override" "255 50 50 255"
-		"depressedFgColor_override" "bc_white01"
+		"depressedFgColor_override" "dm_white"
 		
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
@@ -179,7 +179,7 @@
 		"fgcolor"		"0 0 0 0"
 		"defaultFgColor_override" "0 0 0 0"
 		"armedFgColor_override" "48 210 139 255"
-		"depressedFgColor_override" "bc_white01"
+		"depressedFgColor_override" "dm_white"
 		
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
@@ -199,7 +199,7 @@
 		"labelText"		"NO"
 		"textAlignment"	"center"
 		"font"			"RobotoBold12"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 
 	"yes"
@@ -216,6 +216,6 @@
 		"labelText"		"YES"
 		"textAlignment"	"center"
 		"font"			"RobotoBold12"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 }

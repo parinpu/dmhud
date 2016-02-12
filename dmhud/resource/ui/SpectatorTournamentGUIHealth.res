@@ -1,5 +1,47 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
+	"TournamentHealth"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TournamentHealth"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"35"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"hudspectatorhealth"
+		"fgcolor"		"dm_white"	
+	}
+	"MultipleBG"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MultipleBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"40"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"border"		"NoBorder"
+		"border_default"	"NoBorder"
+		"paintbackground"	"1"
+			
+		"fgcolor_override"		"0"
+		"defaultFgColor_override" "0"
+		"armedFgColor_override" "0"
+		"depressedFgColor_override" "0"
+			
+		"bgcolor_override"		"dm_shadows"
+		"defaultBgColor_override" "dm_shadows"
+		"armedBgColor_override" "0"
+		"depressedBgColor_override" "0"
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -55,47 +97,4 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"TournamentHealth"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TournamentHealth"
-		"xpos"			"0"
-		"ypos"			"-1"
-		"zpos"			"6"
-		"wide"			"35"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"NovecentoBook14"
-		"fgcolor"		"dm_white"	
-	}
-	"MultipleBG"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MultipleBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"40"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"border"		"NoBorder"
-		"border_default"	"NoBorder"
-		"paintbackground"	"1"
-			
-		"fgcolor_override"		"0"
-		"defaultFgColor_override" "0"
-		"armedFgColor_override" "0"
-		"depressedFgColor_override" "0"
-			
-		"bgcolor_override"		"dm_shadows"
-		"defaultBgColor_override" "dm_shadows"
-		"armedBgColor_override" "100 100 100 0"
-		"depressedBgColor_override" "100 100 100 0"
-	}
-	
 }

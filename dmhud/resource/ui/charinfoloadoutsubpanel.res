@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"CharInfoLoadoutSubPanel"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"30"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"dm_gray"
-		"infocus_bgcolor_override" "dm_gray"
-		"outoffocus_bgcolor_override" "dm_gray"
+		"bgcolor_override"	"24 24 24 255"
+		"infocus_bgcolor_override" "24 24 24 255"
+		"outoffocus_bgcolor_override" "24 24 24 255"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -31,8 +31,8 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"bc_white01"
-		"itemcountcolor_noitems"	"bc_white01"
+		"itemcountcolor"			"dm_orange"
+		"itemcountcolor_noitems"	"dm_darkgray"
 	}
 	
 	"scout"
@@ -292,8 +292,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"RobotoBold14"
-		"fgcolor"		"dm_text"
+		"font"			"BebasBold12"
+		"fgcolor"		"dm_white"
 		"labelText"		"#BackpackTitle"
 		"textAlignment"	"north"
 		"xpos"			"c-260"
@@ -335,8 +335,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
-		"font"			"RobotoBold14"
-		"fgcolor"		"dm_text"
+		"font"			"BebasBold12"
+		"fgcolor"		"dm_white"
 		"labelText"		"#CraftingExplanation_Title"
 		"textAlignment"	"north"
 		"xpos"			"c-125"
@@ -378,8 +378,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"RobotoBold14"
-		"fgcolor"		"dm_text"
+		"font"			"BebasBold12"
+		"fgcolor"		"dm_white"
 		"labelText"		"#Armory"
 		"textAlignment"	"north"
 		"xpos"			"c5"
@@ -421,8 +421,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
-		"font"			"RobotoBold14"
-		"fgcolor"		"dm_text"
+		"font"			"BebasBold12"
+		"fgcolor"		"dm_white"
 		"labelText"		"#TradingExplanation_Title"
 		"textAlignment"	"north"
 		"xpos"			"c130"
@@ -441,8 +441,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"RobotoBold14"
-		"fgcolor_override"		"dm_text"
+		"font"			"BebasBold12"
+		"fgcolor"		"dm_white"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -459,7 +459,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"RobotoLight12"
+		"font"			"Bebas12"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -471,7 +471,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override"		"dm_darkgray"
+		"fgcolor"		"dm_orange"
 		"centerwrap"	"1"
 	}
 	
@@ -515,8 +515,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabel"
-		"font"			"RobotoLight20"
-		"fgcolor"		"dm_text"
+		"font"			"BebasBold16"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -528,14 +527,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "dm_text"
+		"fgcolor_override" "dm_white"
 	}
 	"LoadoutChangesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"RobotoBold14"
-		"fgcolor"		"dm_orange"
+		"font"			"BebasBold12"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -577,7 +575,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"9999"
+		"xpos"			"c275"
 		"ypos"			"10"
 		"zpos"			"100"
 		"wide"			"20"

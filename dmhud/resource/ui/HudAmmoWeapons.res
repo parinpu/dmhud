@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"NovecentoBold44"
+		"font"			"hudammoinclip"
 		"fgcolor"		"dm_ammo"
 		"xpos"			"120"
 		"ypos"			"20"
@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"NovecentoBold44.blur"
+		"font"			"hudammoinclip"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"122"
 		"ypos"			"22"
@@ -68,7 +68,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"NovecentoMedium22"
+		"font"			"hudammoreserve"
 		"fgcolor"		"dm_ammoreserve"
 		"xpos"			"175"
 		"ypos"			"15"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"NovecentoMedium22.blur"
+		"font"			"hudammoreserve"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"176"
 		"ypos"			"16"
@@ -102,7 +102,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"NovecentoBold44"
+		"font"			"hudammonoclip"
 		"fgcolor"		"dm_ammo"
 		"xpos"			"110"
 		"ypos"			"20"
@@ -112,16 +112,13 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
-		"labelText"		"%Ammo%"
-		
-
-		
+		"labelText"		"%Ammo%"	
 	}	
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"NovecentoBold44.blur"
+		"font"			"hudammonoclip"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"112"
 		"ypos"			"22"
@@ -131,8 +128,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
-		"labelText"		"%Ammo%"
-
-		
+		"labelText"		"%Ammo%"	
 	}								
 }

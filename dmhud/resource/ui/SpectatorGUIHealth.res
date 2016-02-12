@@ -1,5 +1,44 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+	"HealthBG"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HealthBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"35"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"border_default"	"NoBorder"
+		
+		"fgcolor_override"		"0"
+		"defaultFgColor_override" "0"
+		"armedFgColor_override" "0"
+		"depressedFgColor_override" "0"
+		
+		"defaultBgColor_override" "dm_shadows"
+		"armedBgColor_override"  "dm_shadows"
+		"depressedBgColor_override"  "dm_shadows"
+	}
+	"TargetHealthStatic"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TargetHealthStatic"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"35"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"hudspectatorhealth"
+		"fgcolor"		"dm_white"
+		"labeltext"		"%health%"
+		"textAlignment"	"center"	
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -61,45 +100,6 @@
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
-	}
-	"HealthBG"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"HealthBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"35"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"border_default"	"NoBorder"
-		
-		"fgcolor_override"		"0"
-		"defaultFgColor_override" "0"
-		"armedFgColor_override" "0"
-		"depressedFgColor_override" "0"
-		
-		"defaultBgColor_override" "24 24 24 255"
-		"armedBgColor_override"  "24 24 24 255"
-		"depressedBgColor_override"  "24 24 24 255"
-	}
-	"TargetHealthStatic"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TargetHealthStatic"
-		"xpos"			"0"
-		"ypos"			"-1"
-		"zpos"			"10"
-		"wide"			"35"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"font"			"NovecentoBook14"
-		"fgcolor"		"dm_white"
-		"labeltext"		"%health%"
-		"textAlignment"	"center"	
 	}
 	"PlayerStatusPlayerLevel"
 	{
