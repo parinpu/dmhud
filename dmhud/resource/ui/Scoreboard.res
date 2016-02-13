@@ -89,7 +89,7 @@
 		"xpos"			"0"
 		"ypos"			"20"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"14"
 		"zpos"			"-1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -259,7 +259,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Bebas10"
+		"font"			"Bebas14"
 		"fgcolor"		"dm_white"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -267,7 +267,7 @@
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"300"
-		"tall"			"10"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -282,15 +282,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"BebasBold10"
+		"font"			"Bebas14"
 		"fgcolor_override"		"dm_white"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
-		"xpos"			"r190"
+		"xpos"			"r260"
 		"ypos"			"20"
 		"zpos"			"5"
-		"wide"			"180"
-		"tall"			"10"
+		"wide"			"250"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -306,10 +306,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-280"
-		"ypos"			"c-105"
+		"ypos"			"c-150"
 		"zpos"			"20"
 		"wide"			"280"
-		"tall"			"235"
+		"tall"			"300"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -330,10 +330,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c0"
-		"ypos"			"c-105"
+		"ypos"			"c-150"
 		"zpos"			"20"
 		"wide"			"280"
-		"tall"			"235"
+		"tall"			"300"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -425,33 +425,6 @@
 			"visible"		"0"
 		}
 	}	
-	"DatapanelBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"DatapanelBG"
-		"xpos"			"0"
-		"ypos"			"r4"
-		"wide"			"f0"
-		"tall"			"4"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/panel_dark"
-		"teambg_1"		"replay/thumbnails/panel_dark"
-		"teambg_2"		"replay/thumbnails/panel_red"
-		"teambg_3"		"replay/thumbnails/panel_blue"
-		"scaleImage"		"1"
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -499,7 +472,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Bebas10"
+		"font"			"Bebas14"
 		"fgcolor"		"dm_white"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
@@ -507,7 +480,7 @@
 		"ypos"			"20"
 		"zpos"			"3"
 		"wide"			"300"
-		"tall"			"10"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -811,7 +784,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"24 24 24 255"
+		"fillcolor"		"24 24 24 200"
 		
 		
 		if_mvm

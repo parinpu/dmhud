@@ -81,7 +81,7 @@ Scheme
 			"1"
 			{
 				"name"					"BebasNeueRegular"
-				"tall"						"14"
+				"tall"						"16"
 				"antialias" 				"1"
 			}
 		}
@@ -90,7 +90,7 @@ Scheme
 			"1"
 			{
 				"name"					"BebasNeueRegular"
-				"tall"						"12"
+				"tall"						"14"
 				"antialias" 				"1"
 			}
 		}

@@ -1,7 +1,7 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthShadow 	fgcolor		"20 120 150 255"	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"20 120 150 255"	Linear 0.0 0.0
 	Animate HealthBG			bgcolor		"20 120 150 255"		Linear 0.0 0.0
 	Animate MultipleBG			bgcolor		"20 120 150 255"		Linear 0.0 0.0
 	
@@ -19,7 +19,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate	PlayerStatusHealthShadow 	fgcolor		"dm_shadows"	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"dm_white"	Linear 0.0 0.0
 	Animate HealthBG			bgcolor		"24 24 24 255"		Linear 0.0 0.0
 	Animate MultipleBG			bgcolor		"24 24 24 255"		Linear 0.0 0.0
 }
@@ -27,8 +27,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthShadow 	fgcolor		"255 0 0 255"		Linear 0.0 0.1
-	Animate	PlayerStatusHealthShadow 	fgcolor		"100 24 24 255"		Linear 0.11 0.1
+	Animate	PlayerStatusHealthValue 	fgcolor		"dm_orange"		Linear 0.0 0.1
+	Animate	PlayerStatusHealthValue		fgcolor		"150 100 0 255"		Linear 0.11 0.1
 	
 	Animate HealthBG			bgcolor		"150 100 0 255"		Linear 0.0 0.0
 	Animate MultipleBG			bgcolor		"150 100 0 255"		Linear 0.0 0.0
@@ -47,7 +47,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
-	Animate	PlayerStatusHealthShadow		fgcolor		"dm_shadows"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue		fgcolor		"dm_white"		Linear 0.0 0.0
 	Animate	HealthBG		fgcolor			"dm_shadows"		Linear 0.0 0.0
 	Animate	MultipleBG		fgcolor			"dm_shadows"		Linear 0.0 0.0
 }

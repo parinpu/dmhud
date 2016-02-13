@@ -50,7 +50,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "30"
+		"ypos"	 "32"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -62,7 +62,7 @@
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		
-		"TextFont"		"Bebas12"
+		"TextFont"		"Bebas14"
 		
 		"TeamBlue"		"38 147 200 255"
 		"TeamRed"		"200 20 0 255"
@@ -235,5 +235,39 @@
 		"wide"			"140"
 		"tall"			"600"
 		"PaintBackgroundType"	"0"
+	}
+	
+	"HudMenuSpyDisguise"
+	{
+		"fieldName" 	"HudMenuSpyDisguise"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"r200"
+		"ypos"			"c0"
+		"wide"			"130"
+		"tall"			"170"
+		"PaintBackgroundType"	"0"
+	}
+	HudTeamGoal
+	{
+		"fieldName"				"HudTeamGoal"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"99999"
+		"ypos"					"65"
+		"ypos_lodef"			"75"
+		"wide"					"0"
+		"tall"					"100"
+	}
+	HudTeamGoalTournament
+	{
+		"fieldName"				"HudTeamGoalTournament"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"99999"
+		"ypos"					"15"
+		"ypos_lodef"			"75"
+		"wide"					"0"
+		"tall"					"245"
 	}
 }

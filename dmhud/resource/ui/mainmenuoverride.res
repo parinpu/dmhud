@@ -1128,7 +1128,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"Bebas20"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
