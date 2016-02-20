@@ -31,7 +31,7 @@
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"35"
-		"tall"			"14"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"hudspectatorhealth"
