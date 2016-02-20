@@ -9,6 +9,8 @@
 		"enabled" "1"
 		"xpos"	"c0"
 		"ypos"	"r160"
+		"xpos_minmode"	"c0"
+		"ypos_minmode"	"r160"
 		"wide"	"250"
 		"tall"	"120"
 	}
@@ -19,6 +21,8 @@
 		"enabled"		"1"
 		"xpos"			"c-50"
 		"ypos"			"r140"
+		"xpos_minmode"	"c-50"
+		"ypos_minmode"	"r140"
 		"wide"			"100"
 		"tall"			"60"
 	}
@@ -29,6 +33,8 @@
 		"enabled"		"1"
 		"xpos"			"c-100"
 		"ypos"			"r160"
+		"xpos_minmode"			"c-100"
+		"ypos_minmode"			"r160"
 		"wide"			"350"
 		"tall"			"120"
 	}
@@ -40,9 +46,13 @@
 		"enabled"		"1"
 		"xpos"			"c-50"	
 		"ypos"			"r120"	
+		"xpos_minmode"			"c-50"	
+		"ypos_minmode"			"r120"	
 		"zpos"			"0"		
 		"wide"			"100"
 		"tall"			"8"
+		"wide_minmode"			"100"
+		"tall_minmode"			"8"
 	}
 	HudDeathNotice
 	{
