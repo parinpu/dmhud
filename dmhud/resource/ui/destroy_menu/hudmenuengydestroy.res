@@ -70,12 +70,12 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"dm_shadows"
+		"fillcolor"		"24 24 24 200"
 	}
-	"test"	
+	"NumbersPanel"	
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"test"
+		"fieldName"		"NumbersPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -83,35 +83,15 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bc_white01"
-	}
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NovecentoMedium24"
-		"fgcolor"		"bc_white01"
-		"xpos"			"32"			// align me to the left edge of the first selection
-		"ypos"			"7"
-		"zpos"			"2"
-		"wide"			"300"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#Hud_menu_demolish_title"
-		"textAlignment"	"Left"
-		"dulltext"		"1"
-		"brighttext"	"0"
+		"fillcolor"		"dm_orange"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NovecentoMedium24"
-		"fgcolor"		"bc_white01"
+		"font"			"BebasBold24"
+		"fgcolor"		"dm_white"
 		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"3"
@@ -131,8 +111,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"NovecentoMedium10"
-		"fgcolor"		"bc_white01"
+		"font"			"Bebas10"
+		"fgcolor"		"dm_white"
 		"xpos"			"20"
 		"ypos"			"88"
 		"zpos"			"1"

@@ -11,7 +11,7 @@
 		"tall"			"16"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"bc_blue01"
+		"fillcolor"		"dm_blue"
 	}
 	"ItemBG"	
 	{
@@ -37,7 +37,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bc_blue01"
+		"fillcolor"		"dm_blue"
 	}
 	"ItemNameLabel"
 	{	

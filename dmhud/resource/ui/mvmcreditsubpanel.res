@@ -11,7 +11,7 @@
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"15"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 		
 	"TableBackground"
@@ -38,7 +38,7 @@
 		"ypos"			"15"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -52,7 +52,7 @@
 		"ypos"			"15"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 	
 	"CreditMissedTextLabel"
@@ -66,7 +66,7 @@
 		"ypos"			"27"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 	
 	"CreditMissedCountLabel"
@@ -80,7 +80,7 @@
 		"ypos"			"27"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 	
 	"CreditBonusTextLabel"
@@ -94,7 +94,7 @@
 		"ypos"			"39"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 	
 	"CreditBonusCountLabel"
@@ -108,7 +108,7 @@
 		"ypos"			"39"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 		
 	"CreditRatingLabelShadow"
@@ -136,6 +136,6 @@
 		"ypos"			"25"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 }

@@ -70,7 +70,7 @@
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"dm_shadows"
+		"fillcolor"		"24 24 24 200"
 	}
 	"test"	
 	{
@@ -80,17 +80,17 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"15"
-		"tall"			"170"
+		"tall"				"170"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bc_white01"
+		"fillcolor"		"dm_orange"
 	}
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NovecentoMedium24"
-		"fgcolor"		"bc_white01"
+		"font"			"BebasBold24"
+		"fgcolor"		"dm_white"
 		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"3"
@@ -151,8 +151,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"NovecentoMedium10"
-		"fgcolor"		"bc_white01"
+		"font"			"bebas10"
+		"fgcolor"		"dm_white"
 		"xpos"			"20"
 		"ypos"			"160"
 		"zpos"			"2"

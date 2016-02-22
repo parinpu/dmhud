@@ -11,7 +11,7 @@
 		"tall"			"16"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"bc_blue01"
+		"fillcolor"		"dm_blue"
 	}
 	"ItemBG"	
 	{
@@ -24,7 +24,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"dm_shadows"
+		"fillcolor"		"0"
 	}
 	"MetalBG"	
 	{
@@ -43,10 +43,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NovecentoMedium12"
-		"fgcolor"		"bc_white01"
+		"font"			"Bebas12"
+		"fgcolor"		"dm_white"
 		"xpos"			"20"
-		"ypos"			"-1"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"15"
@@ -81,10 +81,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"NovecentoMedium12"
+		"font"			"Bebas12"
 		"fgcolor"		"dm_shadows"
 		"xpos"			"90"
-		"ypos"			"-1"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"15"
@@ -92,7 +92,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"built"
+		"labelText"		"Built"
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -172,10 +172,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NovecentoMedium14"
-		"fgcolor"		"dm_shadows"
+		"font"			"BebasBold16"
+		"fgcolor"		"dm_white"
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"15"
 		"tall"			"15"

@@ -280,4 +280,17 @@
 		"wide"					"0"
 		"tall"					"245"
 	}
+		HudMannVsMachineStatus
+	{
+		"fieldName" "HudMannVsMachineStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
 }

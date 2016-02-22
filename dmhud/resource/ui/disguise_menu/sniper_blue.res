@@ -56,8 +56,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"NovecentoMedium12"
-		"fgcolor"		"bc_blue01"
+		"font"			"Bebas12"
+		"fgcolor"		"dm_blue"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -76,8 +76,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NovecentoMedium14"
-		"fgcolor"		"dm_shadows"
+		"font"			"BebasBold16"
+		"fgcolor"		"dm_white"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"

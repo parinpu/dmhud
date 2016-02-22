@@ -26,7 +26,7 @@
 		"ypos"			"30"
 		"wide"			"300"
 		"tall"			"10"
-		"fgcolor"		"bc_white01"
+		"fgcolor"		"dm_white"
 	}
 
 	"DifficultyContainer"
@@ -64,7 +64,7 @@
 			"ypos"			"9"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"bc_white01"
+			"fgcolor"		"dm_white"
 		}
 	}
 	
@@ -112,24 +112,37 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
 		"xpos"			"c-200"
-		"ypos"			"230"
+		"ypos"			"r190"
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
 		
+		"titllebg"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"titllebg"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"60"
+			"tall"				"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"dm_orange"
+			}	
 		"MVMBG"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"MVMBG"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"30"
 			"zpos"			"-1"
 			"wide"			"400"
-			"tall"			"150"
+			"tall"			"120"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"dm_scoresBackground"
-			}	
+			"fillcolor"		"24 24 24 200"
+		}	
 		"CreditStatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -163,7 +176,7 @@
 			"ypos"			"8"
 			"wide"			"100"
 			"tall"			"25"
-			"fgcolor"		"bc_white01"
+			"fgcolor"		"dm_white"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -225,7 +238,7 @@
 			"ypos"			"8"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"bc_white01"
+			"fgcolor"		"dm_white"
 		}
 	}
 }
