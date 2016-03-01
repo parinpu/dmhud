@@ -8,7 +8,7 @@
 		"PositiveColor"			"48 210 139 255"
 		"NegativeColor"			"255 50 50 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"NovecentoMedium14"
+		"delta_item_font"		"Bebas14"
 	}
 	
 	"AccountBG"
@@ -64,8 +64,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NovecentoMedium22"
-		"fgcolor"		"dm_ammoreserve"
+		"font"			"Bebas20"
+		"fgcolor"		"dm_white"
 	}
 	"AccountValueShadow"
 	{
@@ -85,7 +85,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NovecentoMedium22"
+		"font"			"Bebas20"
 		"fgcolor"		"dm_shadows"
 	}
 }
