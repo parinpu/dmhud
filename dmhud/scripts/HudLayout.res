@@ -213,17 +213,6 @@
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
-	HudTournament
-	{
-		"fieldName"				"HudTournament"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-100"
-		"ypos"					"5"
-		"zpos"					"2"
-		"wide"					"200"
-		"tall"					"80"
-	}
 	HudTournamentSetup
 	{
 		"fieldName"				"HudTournamentSetup"
@@ -232,7 +221,7 @@
 		"xpos"					"c-90"
 		"ypos"					"-70"
 		"ypos_lodef"				"75"
-		"wide"					"180"
+		"wide"					"f0"
 		"tall"					"400"
 	}
 	"HudMenuTauntSelection"
