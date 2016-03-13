@@ -6,8 +6,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Bebas Neue Regular"
-				"tall"						"18"
+				"name"					"Roboto Medium"
+				"tall"						"16"
 				"antialias" 				"1"
 				"outline"				"0"
 				"dropshadow"		"1"
@@ -17,8 +17,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Bebas Neue Regular"
-				"tall"						"22"
+				"name"					"Roboto Medium"
+				"tall"						"20"
 				"antialias" 				"1"
 				"outline"				"0"
 				"dropshadow"		"1"

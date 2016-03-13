@@ -1,7 +1,8 @@
 #base "res/fonts_robotoedit.res"
 #base "../base/clientscheme.res"
 #base "res/fonts_roboto.res"
-#base "res/fonts_bebas.res"
+//#base "res/fonts_bebas.res"
+#base "res/fonts_hermit.res"
 #base "res/fonts_crosshair.res"
 #base "res/fonts_extras.res"
 #base "res/fonts_damage.res"
@@ -290,6 +291,21 @@ Scheme
 		{
 			"font"		"resource/fonts/BebasNeue Light.otf"
 			"name"		"BebasNeueLight"
+		}
+		"19"
+		{
+			"font"		"resource/fonts/Hermit-light.otf"
+			"name"		"Hermit Light"
+		}
+		"20"
+		{
+			"font"		"resource/fonts/Hermit-medium.otf"
+			"name"		"Hermit Medium"
+		}
+		"21"
+		{
+			"font"		"resource/fonts/Hermit-Bold.otf"
+			"name"		"Hermit Bold"
 		}
 	}
 }

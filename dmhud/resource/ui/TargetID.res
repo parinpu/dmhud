@@ -86,7 +86,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Bebas12"
+		"font"			"RobotoLight12"
 		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"1"

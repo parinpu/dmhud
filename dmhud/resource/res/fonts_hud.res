@@ -6,8 +6,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueBold"
-				"tall"						"50"
+				"name"					"Roboto Bold"
+				"tall"						"42"
 				"antialias" 				"1"
 			}
 		}
@@ -15,8 +15,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueBold"
-				"tall"						"50"
+				"name"					"Roboto Bold"
+				"tall"						"42"
 				"antialias" 				"1"
 			}
 		}
@@ -24,8 +24,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueRegular"
-				"tall"						"30"
+				"name"					"Roboto Medium"
+				"tall"						"24"
 				"antialias"				 "1"
 			}
 		}
@@ -33,8 +33,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueBold"
-				"tall"						"50"
+				"name"					"Roboto Bold"
+				"tall"						"42"
 				"antialias"				 "1"
 			}
 		}
@@ -42,8 +42,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueRegular"
-				"tall"						"12"
+				"name"					"Roboto Medium"
+				"tall"						"10"
 				"dropshadow"		"1"
 				"antialias" 				"1"
 			}
@@ -52,8 +52,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueBold"
-				"tall"						"16"
+				"name"					"Roboto Bold"
+				"tall"						"14"
 				"antialias"		 		"1"
 			}
 		}
@@ -61,8 +61,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueRegular"
-				"tall"						"20"
+				"name"					"Roboto Medium"
+				"tall"						"18"
 				"antialias"			 	"1"
 			}
 		}
@@ -70,8 +70,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueRegular"
-				"tall"						"20"
+				"name"					"Roboto Medium"
+				"tall"						"16"
 				"dropshadow"		"1"
 				"antialias" 				"1"
 			}
@@ -80,8 +80,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueRegular"
-				"tall"						"16"
+				"name"					"Roboto Medium"
+				"tall"						"14"
 				"antialias" 				"1"
 			}
 		}
@@ -89,8 +89,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"BebasNeueRegular"
-				"tall"						"14"
+				"name"					"Roboto Medium"
+				"tall"						"12"
 				"antialias" 				"1"
 			}
 		}
