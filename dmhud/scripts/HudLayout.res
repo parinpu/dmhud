@@ -180,16 +180,7 @@
 		}
 
 	}
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-125"
-		"ypos"					"r110"
-		"wide"					"250"
-		"tall"					"110"
-	}
+
 	"HudMenuEngyBuild"
 	{
 		"fieldName" 	"HudMenuEngyBuild"

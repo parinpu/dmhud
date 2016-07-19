@@ -2,43 +2,27 @@
 {
 	"ResumeGameButton"
 	{
-		"label"			"Resume"
+		"label"			"#MMenu_ResumeGame"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
+		"subimage" "icon_resume"
 	}
-	"QuickplayButton"
+	"FindAGameButton"
 	{
-		"label" "Quickplay" 
-		"command" "quickplay"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu"	"1"
 	}
-	"PlayPVEButton"
+
+	"FindAGameButtonHalfWidth"
 	{
-		"label" "MvM" 
-		"command" "playpve"
-		"OnlyAtMenu" "1"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyInGame"	"1"
 	}
-	"comp"
-	{
-		"label" "Competitive" 
-		"command" "ladder_ui_show"
-		"OnlyAtMenu" "1"
-		//"OnlyWhenCompetitiveEnabled" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "#MMenu_Servers" 
-		"command" "OpenServerBrowser"
-	} 
-	"ReplayBrowserButton"
-	{
-		"label" "Replay"
-		"command" "engine replay_reloadbrowser"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "Workshop"
-		"command" "engine OpenSteamWorkshopDialog"
-	}
+
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -46,50 +30,52 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"OnlyAtMenu" "1"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "Create"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		//"tooltip" "#GameUI_GameMenu_CreateServer"
-	}
+
 	"GeneralStoreButton"
 	{
-		"label" "Store"
+		"label" "#MMenu_Shop"
 		"command" "engine open_store"
+		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Items"
+		"label" "#MMenu_CharacterSetup"
 		"command" "engine open_charinfo"
+		"subimage" "glyph_items"
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"Call vote"
+		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
+		"subimage" "glyph_muted"
+		"tooltip" "#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
-		"label"			"Coach"
+		"label"			""
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
+		"subimage" "icon_whistle"
+		"tooltip" "#MMenu_RequestCoach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
