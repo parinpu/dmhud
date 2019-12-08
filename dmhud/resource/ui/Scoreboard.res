@@ -1,6 +1,6 @@
 "Resource/UI/Scoreboard.res"
 {
-		"scores"
+	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
@@ -259,7 +259,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Bebas14"
+		"font"			"Bebas12"
 		"fgcolor"		"dm_white"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -282,7 +282,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Bebas14"
+		"font"			"Bebas12"
 		"fgcolor_override"		"dm_white"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"

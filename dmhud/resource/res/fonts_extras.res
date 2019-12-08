@@ -19,8 +19,26 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Entypo"
+				"name"			"fontello"
 				"tall"			"32"
+				"antialias"		"1"
+			}
+		}
+		"Icons14"
+		{
+			"1"
+			{
+				"name"			"fontello"
+				"tall"			"14"
+				"antialias"		"1"
+			}
+		}
+		"Icons24"
+		{
+			"1"
+			{
+				"name"			"fontello"
+				"tall"			"24"
 				"antialias"		"1"
 			}
 		}
@@ -28,7 +46,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Entypo"
+				"name"			"fontello"
 				"tall"			"36"
 				"antialias"		"1"
 			}
@@ -37,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Entypo"
+				"name"			"fontello"
 				"tall"			"48"
 				"antialias"		"1"
 			}
@@ -46,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Entypo"
+				"name"			"fontello"
 				"tall"			"72"
 				"antialias"		"1"
 			}

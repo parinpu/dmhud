@@ -72,7 +72,7 @@
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		
-		"TextFont"		"Bebas14"
+		"TextFont"		"Bebas10"
 		
 		"TeamBlue"		"38 147 200 255"
 		"TeamRed"		"200 20 0 255"
@@ -273,4 +273,27 @@
 		
 		"PaintBackgroundType"	"2"
 	}
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+	WinPanel
+	{
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"zpos"					"20"
+	}
+
 }

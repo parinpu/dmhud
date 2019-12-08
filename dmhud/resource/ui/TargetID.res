@@ -278,7 +278,7 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"2"
-		"ypos"			"14"
+		"ypos"			"0"
 		"zpos"			"99"
 		"wide"			"14"
 		"tall"			"14"

@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"class_loadout_panel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"200"
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"

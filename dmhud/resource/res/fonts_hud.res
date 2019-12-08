@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Bold"
+				"name"					"Novecentowide-DemiBold"
 				"tall"						"42"
 				"antialias" 				"1"
 			}
@@ -15,7 +15,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Bold"
+				"name"					"Novecentowide-DemiBold"
 				"tall"						"42"
 				"antialias" 				"1"
 			}
@@ -24,7 +24,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Medium"
+				"name"					"Novecentowide-Medium"
 				"tall"						"24"
 				"antialias"				 "1"
 			}
@@ -33,7 +33,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Bold"
+				"name"					"Novecentowide-DemiBold"
 				"tall"						"42"
 				"antialias"				 "1"
 			}
@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Medium"
+				"name"					"Novecentowide-Medium"
 				"tall"						"10"
 				"dropshadow"		"1"
 				"antialias" 				"1"
@@ -52,7 +52,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Bold"
+				"name"					"Novecentowide-DemiBold"
 				"tall"						"14"
 				"antialias"		 		"1"
 			}
@@ -61,7 +61,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Medium"
+				"name"					"Novecentowide-Medium"
 				"tall"						"18"
 				"antialias"			 	"1"
 			}
@@ -70,7 +70,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Medium"
+				"name"					"Novecentowide-Medium"
 				"tall"						"16"
 				"dropshadow"		"1"
 				"antialias" 				"1"
@@ -80,7 +80,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Medium"
+				"name"					"Novecentowide-Medium"
 				"tall"						"14"
 				"antialias" 				"1"
 			}
@@ -89,7 +89,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Roboto Medium"
+				"name"					"Novecentowide-Medium"
 				"tall"						"12"
 				"antialias" 				"1"
 			}

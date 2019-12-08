@@ -52,7 +52,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Bebas10"
-		"fgcolor_override"	"dm_white"
+		"fgcolor_override"	"dm_orange"
 	}
 
 	"ItemEffectMeter"

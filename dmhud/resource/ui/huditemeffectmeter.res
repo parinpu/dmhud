@@ -37,8 +37,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"-1"
-		"ypos"					"-2"
+		"xpos"					"50"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"70"
 		"tall"					"10"
@@ -48,11 +48,11 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"east"
+		"textAlignment"			"left"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"				"NovecentoLight8"
-		"fgcolor_override"		"bc_white01"
+		"fgcolor_override"		"dm_white"
 	}
 
 	"ItemEffectMeter"
@@ -61,7 +61,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"3"
 		"zpos"					"5"
 		"wide"					"50"
 		"tall"					"4"				
@@ -70,10 +70,11 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"0 0 0 150"
+		"fgcolor_override"		"dm_orange"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		
-		"border"			"border_white"
+		"border"			"border_themed"
 	}
 }

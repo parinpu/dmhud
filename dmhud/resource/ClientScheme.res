@@ -9,16 +9,28 @@
 #base "res/fonts_hud.res"
 #base "res/damagefont.res"
 #base "res/borders.res"
+#base "res/fonts_novecento_avenir.res"
 
 Scheme
 {
 	Colors
 	{
+		//"dm_white"					"244 244 244 255"
+		//"dm_black"					"24 24 24 255"
+		//"dm_blue"					"0 150 255 255"
+		//"dm_gray"					"140 140 140 255"
+		//"dm_darkgray"				"100 100 100 255"
+		//"dm_dullgray"				"200 200 200 255"
+		//"dm_orange"					"255 100 0 255"
+		//"dm_shadows"				"24 24 24 255"
+		//"dm_text"					"24 24 24 255"
+		//"dm_health"					"244 244 244 255"
+
 		"dm_white"					"244 244 244 255"
 		"dm_black"					"24 24 24 255"
-		"dm_blue"					"0 150 255 255"
-		"dm_gray"					"140 140 140 255"
-		"dm_darkgray"				"100 100 100 255"
+		"dm_blue"					"2 117 216 255"
+		"dm_gray"					"108 117 125 255"
+		"dm_darkgray"				"41 43 44 255"
 		"dm_dullgray"				"200 200 200 255"
 		"dm_orange"					"255 100 0 255"
 		"dm_shadows"				"24 24 24 255"
@@ -307,5 +319,45 @@ Scheme
 			"font"		"resource/fonts/Hermit-Bold.otf"
 			"name"		"Hermit Bold"
 		}
+		"22"
+		{
+			"font"		"resource/fonts/AvenirLTStd-Black"
+			"name"		"AvenirLTStd-Black"
+		}
+		"23"
+		{
+			"font"		"resource/fonts/AvenirLTStd-Medium"
+			"name"		"AvenirLTStd-Medium"
+		}
+		"24"
+		{
+			"font" 		"resource/fonts/Novecentowide-Medium.ttf"
+			"name" 		"Novecentowide-Medium"
+		}
+		"25"
+		{
+			"font"		"resource/fonts/Novecentowide-Book.otf"
+			"name" 		"Novecentowide-Book"
+		}	
+		"26"
+		{
+			"font"		"resource/fonts/Novecentowide-DemiBold.otf"
+			"name" 		"Novecentowide-DemiBold"
+		}	
+		"27"
+		{
+			"font" 		"resource/fonts/NovecentoNumbersBold.otf"
+			"name" 		"NovecentoNumbersBold"
+		}	
+		"28"
+		{
+			"font" 		"resource/fonts/NovecentoNumbersMedium.otf"
+			"name" 		"NovecentoNumbersMedium"
+		}
+		"29"
+		{
+			"font" 		"resource/fonts/NovecentoNumbersBook.otf"
+			"name" 		"NovecentoNumbersBook"
+		}			
 	}
 }
